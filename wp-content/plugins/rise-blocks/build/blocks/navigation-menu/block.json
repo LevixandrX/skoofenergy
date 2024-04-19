@@ -1,0 +1,365 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/navigation-menu",
+  "keywords": [
+    "menu",
+    "navigation"
+  ],
+  "version": "3.1.1",
+  "title": "Navigation",
+  "category": "rise-blocks",
+  "description": "This block allows you to customize menus easily. Tailor styles and layouts for a seamless navigation experience on your site",
+  "supports": {
+    "html": false
+  },
+  "example": {
+    "name": "rise-blocks/navigation-menu",
+    "attributes": {
+      "alignment": "right",
+      "typo": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 15,
+            "tablet": 15,
+            "mobile": 15
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      },
+      "margin": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "padding": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px"
+        ],
+        "values": {
+          "desktop": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "tablet": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "mobile": [
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      },
+      "menuItemPadding": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            10,
+            15,
+            10,
+            15
+          ],
+          "tablet": [
+            10,
+            15,
+            10,
+            15
+          ],
+          "mobile": [
+            10,
+            15,
+            10,
+            15
+          ]
+        }
+      },
+      "selectedMenu": "0",
+      "color": "#000000",
+      "bgColor": "#eeeeee",
+      "activeColor": "#ffffff",
+      "activeBgColor": "#000000",
+      "breakpoint": 920
+    }
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "alignment": {
+      "type": "string",
+      "default": "right"
+    },
+    "typo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 15,
+            "tablet": 15,
+            "mobile": 15
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      }
+    },
+    "margin": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px"
+        ],
+        "values": {
+          "desktop": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "tablet": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "mobile": [
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      }
+    },
+    "menuItemPadding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            10,
+            15,
+            10,
+            15
+          ],
+          "tablet": [
+            10,
+            15,
+            10,
+            15
+          ],
+          "mobile": [
+            10,
+            15,
+            10,
+            15
+          ]
+        }
+      }
+    },
+    "selectedMenu": {
+      "type": "string",
+      "default": "0"
+    },
+    "color": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#eeeeee"
+    },
+    "activeColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "activeBgColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "breakpoint": {
+      "type": "string",
+      "default": 920
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

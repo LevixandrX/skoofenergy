@@ -1,0 +1,419 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/page-slider",
+  "keywords": [
+    "slider"
+  ],
+  "version": "3.1.1",
+  "title": "Page Slider",
+  "category": "rise-blocks",
+  "description": "This block enables you to fetch other pages heading and excerpts and display it in a carousel layout with a link.",
+  "supports": {
+    "html": false
+  },
+  "example": {
+    "name": "rise-blocks/page-slider",
+    "attributes": {
+      "tag": "h2",
+      "enableTitle": true,
+      "enableContent": true,
+      "enableArrow": true,
+      "enableDots": true,
+      "excerptLength": 20,
+      "autoplay": true,
+      "pauseOnHover": true,
+      "infiniteLoop": true,
+      "speed": 5,
+      "effect": "fade",
+      "readMoreText": "Read More",
+      "openTab": true,
+      "sectionClickable": false,
+      "readMoreRadius": {
+        "responsiveViews": [
+          "desktop"
+        ],
+        "units": [
+          "px"
+        ],
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "height": {
+        "activeUnit": "vh",
+        "units": [
+          "px",
+          "vh"
+        ],
+        "values": {
+          "desktop": 85,
+          "tablet": 80,
+          "mobile": 60
+        },
+        "range": {
+          "min": 1,
+          "max": 2000
+        }
+      },
+      "width": {
+        "activeUnit": "px",
+        "units": [
+          "px",
+          "vw"
+        ],
+        "values": {
+          "desktop": 1140,
+          "tablet": 720,
+          "mobile": 540
+        },
+        "range": {
+          "min": 100,
+          "max": 2000
+        }
+      },
+      "titleTypography": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 48,
+            "tablet": 28,
+            "mobile": 22
+          }
+        },
+        "fontWeight": 700,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.5,
+            "tablet": 1.5,
+            "mobile": 1.5
+          }
+        }
+      },
+      "contentTypography": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 18,
+            "tablet": 18,
+            "mobile": 18
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.8,
+            "tablet": 1.8,
+            "mobile": 1.8
+          }
+        }
+      },
+      "readMoreTypography": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "rem",
+          "values": {
+            "desktop": 0.9,
+            "tablet": 0.9,
+            "mobile": 0.9
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.5,
+            "tablet": 1.5,
+            "mobile": 1.5
+          }
+        }
+      },
+      "titleColor": "#ffffff",
+      "sectionOverlayColor": "rgba(0, 0, 0, 0.3)",
+      "contentColor": "#ffffff",
+      "commonBgColor": "#ffffff",
+      "commonTextColor": "#000000",
+      "block_id": "rise-blocks-post-slider-instance-0-a5250eca-02a2-450f-9f30-8bf498180ec1",
+      "useExternalLink": true,
+      "page_id": "[]"
+    }
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string",
+      "default": "h2"
+    },
+    "page_id": {
+      "type": "string"
+    },
+    "useExternalLink": {
+      "type": "boolean"
+    },
+    "enableTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableContent": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableArrow": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableDots": {
+      "type": "boolean",
+      "default": true
+    },
+    "excerptLength": {
+      "type": "number",
+      "default": 20
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": true
+    },
+    "pauseOnHover": {
+      "type": "boolean",
+      "default": true
+    },
+    "infiniteLoop": {
+      "type": "boolean",
+      "default": true
+    },
+    "speed": {
+      "type": "number",
+      "default": 5
+    },
+    "effect": {
+      "type": "string",
+      "default": "fade"
+    },
+    "readMoreText": {
+      "type": "string",
+      "default": "Read More"
+    },
+    "openTab": {
+      "type": "boolean",
+      "default": true
+    },
+    "sectionClickable": {
+      "type": "boolean",
+      "default": false
+    },
+    "readMoreRadius": {
+      "type": "object",
+      "default": {
+        "responsiveViews": [
+          "desktop"
+        ],
+        "units": [
+          "px"
+        ],
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "height": {
+      "type": "object",
+      "default": {
+        "activeUnit": "vh",
+        "units": [
+          "px",
+          "vh"
+        ],
+        "values": {
+          "desktop": 85,
+          "tablet": 80,
+          "mobile": 60
+        },
+        "range": {
+          "min": 1,
+          "max": 2000
+        }
+      }
+    },
+    "width": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px",
+          "vw"
+        ],
+        "values": {
+          "desktop": 1140,
+          "tablet": 720,
+          "mobile": 540
+        },
+        "range": {
+          "min": 100,
+          "max": 2000
+        }
+      }
+    },
+    "titleTypography": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 48,
+            "tablet": 28,
+            "mobile": 22
+          }
+        },
+        "fontWeight": 700,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.5,
+            "tablet": 1.5,
+            "mobile": 1.5
+          }
+        }
+      }
+    },
+    "contentTypography": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 18,
+            "tablet": 18,
+            "mobile": 18
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.8,
+            "tablet": 1.8,
+            "mobile": 1.8
+          }
+        }
+      }
+    },
+    "readMoreTypography": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "rem",
+          "values": {
+            "desktop": 0.9,
+            "tablet": 0.9,
+            "mobile": 0.9
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.5,
+            "tablet": 1.5,
+            "mobile": 1.5
+          }
+        }
+      }
+    },
+    "titleColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "sectionOverlayColor": {
+      "type": "string",
+      "default": "rgba(0, 0, 0, 0.3)"
+    },
+    "contentColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "commonBgColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "commonTextColor": {
+      "type": "string",
+      "default": "#000000"
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

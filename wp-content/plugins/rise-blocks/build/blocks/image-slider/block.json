@@ -1,0 +1,113 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/image-slider",
+  "keywords": [
+    "slider",
+    "image"
+  ],
+  "version": "3.1.1",
+  "title": "Image Slider",
+  "category": "rise-blocks",
+  "description": "",
+  "supports": {
+    "html": false
+  },
+  "example": {
+    "name": "rise-blocks/image-slider",
+    "attributes": {
+      "block_id": "rise-blocks-image-slider-instance-0",
+      "image": [
+        {
+          "url": "https://get.pxhere.com/photo/landscape-tree-horizon-silhouette-light-cloud-sky-sun-sunrise-sunset-skyline-sunlight-morning-building-dawn-city-atmosphere-cityscape-dusk-evening-contrast-background-image-clouds-of-background-madrid-landscapes-wallpaper-clams-afterglow-removal-human-settlement-1119150.jpg"
+        }
+      ],
+      "slideToShow": {
+        "activeUnit": "",
+        "units": [],
+        "values": {
+          "desktop": 1,
+          "tablet": 3,
+          "mobile": 2
+        }
+      },
+      "slideToScroll": 1,
+      "enableAutoPlay": false,
+      "enableDots": false,
+      "enableArrows": false,
+      "height": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "values": {
+          "desktop": 250,
+          "tablet": 250,
+          "mobile": 250
+        }
+      }
+    }
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "image": {
+      "type": "array"
+    },
+    "slideToShow": {
+      "type": "object",
+      "default": {
+        "activeUnit": "",
+        "units": [],
+        "range": {
+          "min": 1,
+          "max": 12
+        },
+        "values": {
+          "desktop": 5,
+          "tablet": 3,
+          "mobile": 2
+        }
+      }
+    },
+    "slideToScroll": {
+      "type": "number",
+      "default": 1
+    },
+    "enableAutoPlay": {
+      "type": "boolean",
+      "default": false
+    },
+    "enableDots": {
+      "type": "boolean",
+      "default": false
+    },
+    "enableArrows": {
+      "type": "boolean",
+      "default": false
+    },
+    "height": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 100,
+          "max": 1000
+        },
+        "values": {
+          "desktop": 250,
+          "tablet": 250,
+          "mobile": 250
+        }
+      }
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

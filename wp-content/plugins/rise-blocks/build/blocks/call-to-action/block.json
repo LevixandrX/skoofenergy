@@ -1,0 +1,590 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/call-to-action",
+  "keywords": [
+    "call to action",
+    "cta"
+  ],
+  "version": "3.1.1",
+  "title": "Call To Action",
+  "category": "rise-blocks",
+  "description": "This block helps to make attractive call to action section with customized background image and button.",
+  "supports": {
+    "html": false
+  },
+  "example": {
+    "name": "rise-blocks/call-to-action",
+    "attributes": {
+      "containerWidth": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 1,
+          "max": 2000
+        },
+        "values": {
+          "desktop": 1140,
+          "tablet": 720,
+          "mobile": 540
+        }
+      },
+      "sectionBgImage": {
+        "sizes": "full",
+        "image": "undefined"
+      },
+      "sectionBgPosition": "",
+      "sectionOverlay": "rgba(233, 233, 233, 0.5)",
+      "sectionBgAttachment": false,
+      "sectionPadding": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            "100",
+            "40",
+            "100",
+            "40"
+          ],
+          "tablet": [
+            "100",
+            "40",
+            "100",
+            "40"
+          ],
+          "mobile": [
+            "100",
+            "40",
+            "100",
+            "40"
+          ]
+        }
+      },
+      "titlePadding": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "tablet": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "mobile": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      },
+      "titleTag": "h2",
+      "title": "Call To Action",
+      "titleColor": "rgb(0, 0, 0)",
+      "titleTypography": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 42,
+            "tablet": 42,
+            "mobile": 42
+          }
+        },
+        "fontWeight": 700,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      },
+      "lineColor": "#000",
+      "bgType": "image",
+      "buttonBodrderRadius": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop"
+        ],
+        "units": [
+          "px"
+        ],
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "buttonText": "Buy Now",
+      "buttonHoverTextColor": "#fff",
+      "buttonTextColor": "#fff",
+      "buttonPadding": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            "14",
+            "30",
+            "14",
+            "30"
+          ],
+          "tablet": [
+            "14",
+            "30",
+            "14",
+            "30"
+          ],
+          "mobile": [
+            "14",
+            "30",
+            "14",
+            "30"
+          ]
+        }
+      },
+      "buttonBackground": "#000",
+      "buttonHoverBackground": "#000",
+      "buttonTypography": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 16,
+            "tablet": 16,
+            "mobile": 16
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      },
+      "buttonLink": "#",
+      "openIn": true,
+      "block_id": "rise-blocks-cta-block-instance-1-6cd8ef73-ab26-4714-bdc3-04c2a4849e71"
+    },
+    "viewportWidth": 800
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "containerWidth": {
+      "type": "number",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 1,
+          "max": 2000
+        },
+        "values": {
+          "desktop": 1140,
+          "tablet": 720,
+          "mobile": 540
+        }
+      }
+    },
+    "sectionBgImage": {
+      "type": "object",
+      "default": {
+        "sizes": "full",
+        "image": "undefined"
+      }
+    },
+    "sectionBgPosition": {
+      "type": "string",
+      "default": ""
+    },
+    "sectionOverlay": {
+      "type": "string",
+      "default": "rgba(233, 233, 233, 0.5)"
+    },
+    "sectionBgAttachment": {
+      "type": "boolean",
+      "default": false
+    },
+    "sectionPadding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            "100",
+            "40",
+            "100",
+            "40"
+          ],
+          "tablet": [
+            "100",
+            "40",
+            "100",
+            "40"
+          ],
+          "mobile": [
+            "100",
+            "40",
+            "100",
+            "40"
+          ]
+        }
+      }
+    },
+    "titlePadding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "tablet": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "mobile": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      }
+    },
+    "titleTag": {
+      "type": "string",
+      "default": "h2"
+    },
+    "title": {
+      "type": "string",
+      "default": ""
+    },
+    "titleColor": {
+      "type": "string",
+      "default": "rgb(0, 0, 0)"
+    },
+    "titleTypography": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 42,
+            "tablet": 42,
+            "mobile": 42
+          }
+        },
+        "fontWeight": 700,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      }
+    },
+    "lineColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "bgType": {
+      "type": "string",
+      "default": "image"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "buttonBodrderRadius": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop"
+        ],
+        "units": [
+          "px"
+        ],
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "buttonText": {
+      "type": "string",
+      "default": "Buy Now"
+    },
+    "buttonHoverTextColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "buttonTextColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "buttonPadding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            "14",
+            "30",
+            "14",
+            "30"
+          ],
+          "tablet": [
+            "14",
+            "30",
+            "14",
+            "30"
+          ],
+          "mobile": [
+            "14",
+            "30",
+            "14",
+            "30"
+          ]
+        }
+      }
+    },
+    "buttonBackground": {
+      "type": "string",
+      "default": "#000"
+    },
+    "buttonHoverBackground": {
+      "type": "string",
+      "default": "#000"
+    },
+    "buttonTypography": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 16,
+            "tablet": 16,
+            "mobile": 16
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      }
+    },
+    "buttonLink": {
+      "type": "string",
+      "default": "#"
+    },
+    "openIn": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

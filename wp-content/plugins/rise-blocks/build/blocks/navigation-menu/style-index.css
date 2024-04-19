@@ -1,0 +1,186 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/navigation-menu/styles/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.rise-blocks-navigation-menu-wrapper {
+  width: 100%;
+}
+.rise-blocks-navigation-menu-wrapper .rise-blocks-main-nav,
+.rise-blocks-navigation-menu-wrapper .widget_nav_menu ul.menu {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  box-sizing: border-box !important;
+}
+.rise-blocks-navigation-menu-wrapper .rise-blocks-main-nav li,
+.rise-blocks-navigation-menu-wrapper .widget_nav_menu ul.menu li {
+  margin-right: 0;
+  font-size: 16px;
+  position: relative;
+  list-style: none;
+}
+.rise-blocks-navigation-menu-wrapper .rise-blocks-main-nav li a,
+.rise-blocks-navigation-menu-wrapper .widget_nav_menu ul.menu li a {
+  color: #6e6e6e;
+  transition: all 0.3s;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+}
+.rise-blocks-navigation-menu-wrapper .rise-blocks-main-nav li a:hover,
+.rise-blocks-navigation-menu-wrapper .widget_nav_menu ul.menu li a:hover {
+  color: #000;
+}
+.rise-blocks-navigation-menu-wrapper .rise-blocks-main-nav li.current-menu-item a,
+.rise-blocks-navigation-menu-wrapper .widget_nav_menu ul.menu li.current-menu-item a {
+  color: #000;
+}
+.rise-blocks-navigation-menu-wrapper .rise-blocks-main-nav li:last-child,
+.rise-blocks-navigation-menu-wrapper .widget_nav_menu ul.menu li:last-child {
+  margin-right: 0;
+}
+.rise-blocks-navigation-menu-wrapper .rise-blocks-main-nav li .sub-menu,
+.rise-blocks-navigation-menu-wrapper .widget_nav_menu ul.menu li .sub-menu {
+  position: absolute;
+  list-style: none;
+  margin: 0;
+  width: 220px;
+  left: 0;
+  padding: 15px 0 0;
+  top: 190%;
+  border-radius: 5px;
+  transition: all 0.3s;
+  opacity: 0;
+  z-index: -1;
+  visibility: hidden;
+  border-radius: 0;
+}
+.rise-blocks-navigation-menu-wrapper .rise-blocks-main-nav li .sub-menu li,
+.rise-blocks-navigation-menu-wrapper .widget_nav_menu ul.menu li .sub-menu li {
+  margin-right: 0;
+  transition: all 0.3s;
+}
+.rise-blocks-navigation-menu-wrapper .rise-blocks-main-nav li .sub-menu li a,
+.rise-blocks-navigation-menu-wrapper .widget_nav_menu ul.menu li .sub-menu li a {
+  color: #4e4c4c;
+  padding: 7px 15px;
+}
+.rise-blocks-navigation-menu-wrapper .rise-blocks-main-nav li .sub-menu .sub-menu,
+.rise-blocks-navigation-menu-wrapper .widget_nav_menu ul.menu li .sub-menu .sub-menu {
+  top: 0 !important;
+  left: 100%;
+}
+.rise-blocks-navigation-menu-wrapper .rise-blocks-main-nav li:hover > .sub-menu, .rise-blocks-navigation-menu-wrapper .rise-blocks-main-nav li:focus-within > .sub-menu,
+.rise-blocks-navigation-menu-wrapper .widget_nav_menu ul.menu li:hover > .sub-menu,
+.rise-blocks-navigation-menu-wrapper .widget_nav_menu ul.menu li:focus-within > .sub-menu {
+  opacity: 1;
+  visibility: visible;
+  z-index: 999;
+  top: 100%;
+}
+.rise-blocks-navigation-menu-wrapper .rise-blocks-main-nav > li,
+.rise-blocks-navigation-menu-wrapper .widget_nav_menu ul.menu > li {
+  margin-right: 5px;
+}
+.rise-blocks-navigation-menu-wrapper .rise-blocks-main-nav > li:last-child,
+.rise-blocks-navigation-menu-wrapper .widget_nav_menu ul.menu > li:last-child {
+  margin-right: 0;
+}
+.rise-blocks-navigation-menu-wrapper .rise-blocks-main-nav > li.menu-item-has-children > a,
+.rise-blocks-navigation-menu-wrapper .widget_nav_menu ul.menu > li.menu-item-has-children > a {
+  position: relative;
+}
+.rise-blocks-navigation-menu-wrapper .rise-blocks-main-nav > li.menu-item-has-children > a:after,
+.rise-blocks-navigation-menu-wrapper .widget_nav_menu ul.menu > li.menu-item-has-children > a:after {
+  content: "\f107";
+  font-family: "FontAwesome";
+  margin-left: 8px;
+  font-weight: 600;
+}
+
+.align-center .rise-blocks-main-nav,
+.align-center .widget_nav_menu ul.menu {
+  justify-content: center;
+}
+
+.align-right .rise-blocks-main-nav,
+.align-right .widget_nav_menu ul.menu {
+  justify-content: flex-end;
+}
+
+.align-left .rise-blocks-main-nav,
+.align-left .widget_nav_menu ul.menu {
+  justify-content: flex-start;
+}
+
+.hc-offcanvas-nav .nav-container ul.rise-blocks-main-nav.menu {
+  display: block;
+}
+.hc-offcanvas-nav .nav-container ul.rise-blocks-main-nav.menu a {
+  display: block;
+}
+.hc-offcanvas-nav li.nav-parent .nav-item-link:not(:last-child) {
+  width: calc(100% - 45px);
+}
+
+.rise-blocks-header {
+  position: relative;
+}
+.rise-blocks-header .hc-nav-trigger {
+  right: 0;
+  z-index: 999;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+body .hc-offcanvas-nav .nav-content {
+  opacity: 1;
+}
+
+body .hc-offcanvas-nav .nav-item-link, .hc-offcanvas-nav li.nav-close a,
+body .hc-offcanvas-nav .nav-back a {
+  border-color: transparent;
+}
+
+body .hc-offcanvas-nav a.nav-next {
+  border-left: none;
+  border-bottom: none;
+}
+
+body .hc-offcanvas-nav .nav-content > .nav-close:first-child a,
+body .hc-offcanvas-nav .nav-title + .nav-close a.has-label,
+body .hc-offcanvas-nav li.nav-close a,
+body .hc-offcanvas-nav .nav-back a,
+body .hc-offcanvas-nav.nav-levels-expand li.level-open > .nav-item-wrapper > a,
+body .hc-offcanvas-nav.nav-levels-none li.level-open > .nav-item-wrapper > a,
+body .hc-offcanvas-nav.nav-levels-expand li.level-open > .nav-item-wrapper > a:hover,
+body .hc-offcanvas-nav.nav-levels-none li.level-open > .nav-item-wrapper > a:hover {
+  background: transparent;
+  border-top: transparent;
+  border-bottom: transparent;
+}
+
+body .hc-offcanvas-nav .nav-wrapper > .nav-content > ul:first-of-type > li:first-child:not(.nav-back):not(.nav-close) > .nav-item-wrapper > .nav-item-link {
+  border-top: none;
+}
+
+body .hc-offcanvas-nav .nav-close-button span::before {
+  margin-left: -15px;
+  transform: rotate(135deg);
+}
+
+body .hc-offcanvas-nav .nav-close-button span::before,
+body .hc-offcanvas-nav .nav-close-button span::after {
+  width: 12px;
+  height: 12px;
+}
+
+a.nav-next {
+  background: transparent !important;
+  transition: none !important;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

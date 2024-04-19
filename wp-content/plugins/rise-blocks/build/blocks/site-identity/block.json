@@ -1,0 +1,366 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/site-identity",
+  "keywords": [
+    "Site Title"
+  ],
+  "version": "3.1.1",
+  "title": "Site Identity",
+  "category": "rise-blocks",
+  "description": "These block empowers you to effortlessly manage and customize your site's title, tagline, and logo appearance.",
+  "supports": {
+    "html": false
+  },
+  "example": {
+    "name": "rise-blocks/site-identity",
+    "attributes": {
+      "titleTypo": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 32,
+            "tablet": 22,
+            "mobile": 18
+          }
+        },
+        "fontWeight": 600,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      },
+      "taglineTypo": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 14,
+            "tablet": 12,
+            "mobile": 10
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.8,
+            "tablet": 1.8,
+            "mobile": 1.8
+          }
+        }
+      },
+      "logoTag": "h1",
+      "titleTag": "div",
+      "taglineTag": "p",
+      "titleColor": "#000000",
+      "taglineColor": "#000000",
+      "logo": {
+        "sizes": "full",
+        "url": false
+      },
+      "enableSiteTitle": true,
+      "enableTagline": true,
+      "padding": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "margin": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "height": 100,
+      "width": 300,
+      "block_id": "rise-blocks-site-identity-block-instance-undefined-372f4376-58e3-4b52-ac9a-aceb5415fe4b"
+    }
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "titleTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 32,
+            "tablet": 22,
+            "mobile": 18
+          }
+        },
+        "fontWeight": 600,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      }
+    },
+    "taglineTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 14,
+            "tablet": 12,
+            "mobile": 10
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.8,
+            "tablet": 1.8,
+            "mobile": 1.8
+          }
+        }
+      }
+    },
+    "logoTag": {
+      "type": "string",
+      "default": "h1"
+    },
+    "titleTag": {
+      "type": "string",
+      "default": "div"
+    },
+    "taglineTag": {
+      "type": "string",
+      "default": "p"
+    },
+    "titleColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "taglineColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "logo": {
+      "type": "object",
+      "default": {
+        "sizes": "full",
+        "url": false
+      }
+    },
+    "enableSiteTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableTagline": {
+      "type": "boolean",
+      "default": true
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "margin": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "height": {
+      "type": "number",
+      "default": 100
+    },
+    "width": {
+      "type": "number",
+      "default": 300
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

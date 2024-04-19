@@ -1,0 +1,29 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/accordion/styles/editor.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.rise-blocks-accordion-title {
+  background: #eee;
+  padding: 10px;
+  border: 1px solid #d7d7d7;
+}
+
+.wp-block-rise-blocks-accordion-item > button {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  background: black;
+  border: none;
+  padding: 0 14px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  cursor: pointer;
+  text-transform: capitalize;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=index.css.map*/

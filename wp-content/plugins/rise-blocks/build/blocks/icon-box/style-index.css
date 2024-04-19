@@ -1,0 +1,80 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/icon-box/style/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.rise-blocks-center {
+  text-align: center;
+}
+
+.rise-blocks-right {
+  text-align: right;
+}
+
+.rise-blocks-icon-box .rise-blocks-icon-wrapper .rise-blocks-icon.rise-blocks-stack-icon-layout, .rise-blocks-icon-box .rise-blocks-icon-wrapper .rise-blocks-icon.rise-blocks-frame-icon-layout {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.rise-blocks-icon-box .rise-blocks-icon-wrapper .rise-blocks-icon {
+  font-size: 2rem;
+  display: inline-block;
+  line-height: 0;
+}
+.rise-blocks-icon-box .rise-blocks-icon-wrapper .rise-blocks-icon.rise-blocks-frame-icon-layout {
+  border: 2px solid transparent;
+}
+.rise-blocks-icon-box .rise-blocks-title a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =============================
+ *  Save Function Style
+ * ============================= */
+.rise-blocks-icon-box {
+  padding: 60px 35px;
+  /* Icon Section */
+  /* Content section */
+}
+.rise-blocks-icon-box .rise-blocks-icon-wrapper .rise-blocks-icon {
+  font-size: 40px;
+  /* Frame icon layout */
+  /* Stack icon layout */
+  /* Not stack */
+  /* Not Initial Icon layout  */
+}
+.rise-blocks-icon-box .rise-blocks-icon-wrapper .rise-blocks-icon.rise-blocks-frame-icon-layout {
+  border: 2px solid #000000;
+}
+.rise-blocks-icon-box .rise-blocks-icon-wrapper .rise-blocks-icon.rise-blocks-stack-icon-layout {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+}
+.rise-blocks-icon-box .rise-blocks-icon-wrapper .rise-blocks-icon:not(.rise-blocks-stack-icon-layout) {
+  color: #000000;
+}
+.rise-blocks-icon-box .rise-blocks-icon-wrapper .rise-blocks-icon:not(.rise-blocks-initial-icon-layout) {
+  width: 80px;
+  height: 80px;
+}
+.rise-blocks-icon-box .rise-blocks-content {
+  word-break: break-all;
+}
+.rise-blocks-icon-box .rise-blocks-content .rise-blocks-title {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  line-height: 1.6;
+  font-size: 24px;
+  padding: 30px 0px 15px;
+  margin: 0;
+}
+.rise-blocks-icon-box .rise-blocks-content .rise-blocks-description {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 15px;
+  color: rgb(111, 111, 111);
+  margin: 0;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

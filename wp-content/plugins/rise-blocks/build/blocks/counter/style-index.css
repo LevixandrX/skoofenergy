@@ -1,0 +1,135 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/counter/styles/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.rise-blocks-counter-wrapper {
+  display: flex;
+  margin: 0 -16px;
+  flex-wrap: wrap;
+}
+.rise-blocks-counter-wrapper.rise-blocks-items-per-row-1 > div {
+  max-width: 100%;
+  flex: 100%;
+}
+.rise-blocks-counter-wrapper.rise-blocks-items-per-row-2 > div {
+  max-width: 50%;
+  flex: 50%;
+}
+@media (max-width: 992px) {
+  .rise-blocks-counter-wrapper.rise-blocks-items-per-row-2 > div {
+    max-width: 100%;
+    flex: 100%;
+  }
+}
+.rise-blocks-counter-wrapper.rise-blocks-items-per-row-3 > div {
+  max-width: 33.33333334%;
+  flex: 33.333334%;
+}
+@media (max-width: 1199px) {
+  .rise-blocks-counter-wrapper.rise-blocks-items-per-row-3 > div {
+    max-width: 50%;
+    flex: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .rise-blocks-counter-wrapper.rise-blocks-items-per-row-3 > div {
+    max-width: 100%;
+    flex: 100%;
+  }
+}
+.rise-blocks-counter-wrapper.rise-blocks-items-per-row-4 > div {
+  max-width: 25%;
+  flex: 25%;
+}
+@media (max-width: 768px) {
+  .rise-blocks-counter-wrapper.rise-blocks-items-per-row-4 > div {
+    max-width: 50%;
+    flex: 50%;
+  }
+}
+.rise-blocks-counter-wrapper.rise-blocks-items-per-row-5 > div {
+  max-width: 20%;
+  flex: 20%;
+}
+@media (max-width: 1199px) {
+  .rise-blocks-counter-wrapper.rise-blocks-items-per-row-5 > div {
+    max-width: 25%;
+    flex: 25%;
+  }
+}
+@media (max-width: 768px) {
+  .rise-blocks-counter-wrapper.rise-blocks-items-per-row-5 > div {
+    max-width: 33.333333334%;
+    flex: 33.333333334%;
+  }
+}
+@media (max-width: 576px) {
+  .rise-blocks-counter-wrapper.rise-blocks-items-per-row-5 > div {
+    max-width: 50%;
+    flex: 50%;
+  }
+}
+.rise-blocks-counter-wrapper.rise-blocks-items-per-row-6 > div {
+  max-width: 16.666666667%;
+  flex: 16.666666667%;
+}
+@media (max-width: 1199px) {
+  .rise-blocks-counter-wrapper.rise-blocks-items-per-row-6 > div {
+    max-width: 20%;
+    flex: 20%;
+  }
+}
+@media (max-width: 992px) {
+  .rise-blocks-counter-wrapper.rise-blocks-items-per-row-6 > div {
+    max-width: 25%;
+    flex: 25%;
+  }
+}
+@media (max-width: 768px) {
+  .rise-blocks-counter-wrapper.rise-blocks-items-per-row-6 > div {
+    max-width: 33.333333334%;
+    flex: 33.333333334%;
+  }
+}
+@media (max-width: 576px) {
+  .rise-blocks-counter-wrapper.rise-blocks-items-per-row-6 > div {
+    max-width: 50%;
+    flex: 50%;
+  }
+}
+.rise-blocks-counter-wrapper > div {
+  padding: 0 15px;
+  margin: 1rem 0;
+}
+.rise-blocks-counter-wrapper > div .rise-blocks-counter {
+  background-color: #fff;
+}
+
+/* Counter Style */
+.rise-blocks-counter {
+  padding: 1.5rem 1rem;
+  text-align: center;
+  word-break: break-all;
+}
+.rise-blocks-counter.rise-blocks-box-shadow {
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.rise-blocks-counter.rise-blocks-box-border {
+  border: 1px solid #ddd;
+}
+.rise-blocks-counter .rise-blocks-counter-number {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.rise-blocks-counter .rise-blocks-counter-line {
+  width: 30px;
+  height: 2px;
+  background-color: #000;
+  margin: 0.5rem auto;
+}
+.rise-blocks-counter .rise-blocks-counter-text {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

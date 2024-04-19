@@ -1,0 +1,31 @@
+.tr-counter-inner {
+    padding: 30px;
+    text-align: center;
+}
+
+.rt-counter-icon {
+    font-size: 50px;
+    background: #000;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: #fff;
+}
+
+.rt-counter-text h3 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+    line-height: 1;
+}
+
+.rt-counter-text h4 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 18px;
+}

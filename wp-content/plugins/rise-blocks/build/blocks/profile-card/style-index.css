@@ -1,0 +1,55 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/profile-card/styles/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.rise-blocks-profile-card {
+  height: 100%;
+}
+.rise-blocks-profile-card .rise-blocks-profile-card-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+  transition: all 0.2s linear;
+}
+.rise-blocks-profile-card .rise-blocks-profile-card-image i {
+  font-size: 35px;
+  color: #a1a1a1;
+  width: inherit;
+  height: initial;
+}
+.rise-blocks-profile-card .rise-blocks-description-wrapper .rise-blocks-profile-card-title > * {
+  margin: 0;
+}
+.rise-blocks-profile-card .rise-blocks-description-wrapper .rise-blocks-profile-card-description p {
+  margin: 0;
+}
+.rise-blocks-profile-card .rise-blocks-description-wrapper .rise-blocks-profile-card-designation > span {
+  border: 1px solid transparent;
+}
+
+.rise-blocks-rectangle-layout .rise-blocks-profile-card .rise-blocks-profile-card-image i {
+  font-size: 50px;
+}
+
+/* Social Media */
+.rise-blocks-social-media {
+  margin-top: 25px;
+}
+.rise-blocks-social-media a {
+  float: left;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+  transition: all 0.3s;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  margin-right: 6px;
+  margin-bottom: 6px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

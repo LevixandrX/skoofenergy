@@ -1,0 +1,128 @@
+.elementor-widget-rt-featured-slider.content-align-right{
+	text-align: right;
+}
+
+.elementor-widget-rt-featured-slider.content-align-left{
+	text-align: left;
+}
+
+.elementor-widget-rt-featured-slider.content-align-center{
+	text-align: center;
+}
+
+/* slider arrow */
+.rt-featured-slider-item-wrapper {
+    display: flex !important;
+    position: relative;
+    align-items: center;
+}
+
+.rt-featured-slider-item-wrapper:after {
+    position: absolute;
+    height: 100%;
+    content: "";
+    background: #0000008c;
+    width: 100%;
+    top: 0;
+}
+
+.rt-featured-slider-item-wrapper > * {
+	position: relative;
+	z-index: 99;
+}
+
+.rt-featured-slider .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-size: 48px;
+    background: no-repeat;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.rt-featured-slider .slick-prev {
+	left: 25px;
+}
+
+.rt-featured-slider .slick-next {
+	right: 25px;
+}
+
+/* dots */
+.rt-featured-slider ul.slick-dots {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    bottom: 30px;
+    justify-content: center;
+    width: 100%;
+    z-index: 999;
+}
+
+.rt-featured-slider ul.slick-dots li {
+	margin: 0 5px;
+}
+
+.rt-featured-slider ul.slick-dots li button {
+    background: #fff;
+    border: none;
+    font-size: 0;
+    height: 8px;
+    width: 55px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rt-featured-slider ul.slick-dots li.slick-active button {
+	background: #000;
+}
+
+.rt-featured-slider .slick-arrow:focus,
+.rt-featured-slider ul.slick-dots li button {
+    outline: thin dotted;
+}
+
+/* slider content */
+
+.rt-featured-slider-item {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+.rt-featured-slider-title,
+.rt-featured-slider-content,
+.rt-featured-slider-link {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.rt-featured-slider-title {	
+    transition: opacity .3s ease-in-out .2s;
+}
+
+.rt-featured-slider-content {
+	transition: opacity .6s ease-in-out .4s;
+}
+
+.rt-featured-slider-content p {
+	margin: 0;
+}
+
+.rt-featured-slider-link {
+	transition: opacity .9s ease-in-out .6s;
+	display: inline-block;
+}
+
+.slick-active .rt-featured-slider-title,
+.slick-active .rt-featured-slider-content,
+.slick-active .rt-featured-slider-link {
+	opacity: 1;
+    visibility: visible;
+}

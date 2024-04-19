@@ -1,0 +1,21 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/counter/styles/editor.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.rise-blocks-counter .rise-blocks-counter-number input {
+  border: none;
+  text-align: center;
+  max-width: 100%;
+  height: initial;
+  padding: 0;
+  background-color: transparent;
+}
+.rise-blocks-counter .rise-blocks-counter-number input:focus {
+  outline: none;
+  box-shadow: none;
+}
+.rise-blocks-counter .rise-blocks-counter-number input::-webkit-inner-spin-button, .rise-blocks-counter .rise-blocks-counter-number input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*# sourceMappingURL=index.css.map*/

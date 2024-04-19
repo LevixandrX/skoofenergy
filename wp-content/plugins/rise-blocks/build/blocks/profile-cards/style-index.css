@@ -1,0 +1,65 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/profile-cards/styles/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.rise-blocks-block-lists {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rise-blocks-border-enable .rise-blocks-block-lists > div:not(.block-list-appender) {
+  transition: all 0.3s linear;
+  border: 1px solid #ddd;
+}
+
+/* Layout 1 */
+.rise-blocks-circle-layout .rise-blocks-profile-card {
+  padding: 2rem;
+  padding-top: 50px;
+}
+.rise-blocks-circle-layout .rise-blocks-profile-card .rise-blocks-description-wrapper .rise-blocks-profile-card-designation span {
+  border-color: transparent !important;
+}
+.rise-blocks-circle-layout .rise-blocks-profile-card .rise-blocks-profile-card-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: -100px;
+}
+.rise-blocks-circle-layout .rise-blocks-profile-card .rise-blocks-description-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.rise-blocks-circle-layout .rise-blocks-profile-card .rise-blocks-profile-card-designation {
+  position: relative;
+}
+.rise-blocks-circle-layout .rise-blocks-profile-card .rise-blocks-profile-card-designation:before {
+  content: "-";
+  margin-right: 7px;
+}
+.rise-blocks-circle-layout .rise-blocks-profile-card .rise-blocks-profile-card-designation > span {
+  display: inline-block;
+  max-width: 100%;
+}
+
+/* Layout 2 */
+.rise-blocks-rectangle-layout .rise-blocks-profile-card {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.rise-blocks-rectangle-layout .rise-blocks-profile-card .rise-blocks-profile-card-image {
+  width: 35%;
+}
+.rise-blocks-rectangle-layout .rise-blocks-profile-card .rise-blocks-description-wrapper {
+  width: 65%;
+  padding: 2rem;
+  overflow-wrap: break-word;
+}
+.rise-blocks-rectangle-layout .rise-blocks-profile-card .rise-blocks-profile-card-designation > span {
+  max-width: 100%;
+  padding: 0 0.4rem;
+  border-radius: 0.2rem;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

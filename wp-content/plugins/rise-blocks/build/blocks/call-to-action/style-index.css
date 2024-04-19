@@ -1,0 +1,98 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/call-to-action/styles/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.rise-blocks-cta-wrapper {
+  position: relative;
+  padding: 100px 40px;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+.rise-blocks-cta-wrapper .rise-blocks-cta-content {
+  position: relative;
+  z-index: 9;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+@media (max-width: 992px) {
+  .rise-blocks-cta-wrapper .rise-blocks-cta-content {
+    max-width: 720px;
+  }
+}
+@media (max-width: 768px) {
+  .rise-blocks-cta-wrapper .rise-blocks-cta-content {
+    max-width: 540px;
+  }
+}
+.rise-blocks-cta-wrapper .rise-blocks-cta-btn-wrapper {
+  max-width: 30%;
+  flex: 0 0 30%;
+  text-align: right;
+}
+@media (max-width: 768px) {
+  .rise-blocks-cta-wrapper .rise-blocks-cta-btn-wrapper {
+    max-width: 100%;
+    flex: 0 0 100%;
+    margin-top: 30px;
+    text-align: left;
+  }
+}
+.rise-blocks-cta-wrapper .rise-blocks-cta-btn-wrapper .rise-blocks-cta-btn {
+  padding: 14px 30px;
+  border-width: 0px;
+  border-style: solid;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 16px;
+  background-color: #000;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: inline-block;
+}
+.rise-blocks-cta-wrapper .rise-blocks-cta-btn-wrapper .rise-blocks-cta-btn:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #f1262f;
+}
+.rise-blocks-cta-wrapper .rise-blocks-cta-title-wrapper {
+  max-width: 70%;
+  flex: 0 0 70%;
+  text-align: left;
+}
+@media (max-width: 768px) {
+  .rise-blocks-cta-wrapper .rise-blocks-cta-title-wrapper {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding-right: 0;
+  }
+}
+.rise-blocks-cta-wrapper .rise-blocks-cta-title-wrapper > .rise-blocks-cta-title {
+  position: relative;
+}
+.rise-blocks-cta-wrapper .rise-blocks-cta-title-wrapper .rise-blocks-cta-title {
+  margin: 0;
+  color: rgb(0, 0, 0);
+  padding-bottom: 15px;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.rise-blocks-cta-wrapper .rise-blocks-cta-title-wrapper .rise-blocks-cta-title-line {
+  height: 3px;
+  width: 50px;
+  border-radius: 25%;
+  background: #000;
+  display: block;
+}
+.rise-blocks-cta-wrapper .rise-blocks-cta-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(233, 233, 233, 0.5);
+}
+
+/*# sourceMappingURL=style-index.css.map*/

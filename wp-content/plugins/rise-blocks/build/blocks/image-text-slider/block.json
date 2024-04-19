@@ -1,0 +1,429 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/image-text-slider",
+  "keywords": [
+    "slider",
+    "image",
+    "text"
+  ],
+  "version": "3.1.1",
+  "title": "Image Text Slider",
+  "category": "rise-blocks",
+  "description": "Image Text Slider enables multiple images for the slider including content like heading and description.",
+  "supports": {
+    "html": false
+  },
+  "example": {
+    "name": "rise-blocks/image-text-slider",
+    "attributes": {
+      "block_id": "rise-blocks-image-text-slider-instance-0",
+      "image": [
+        {
+          "url": "https://get.pxhere.com/photo/landscape-tree-horizon-silhouette-light-cloud-sky-sun-sunrise-sunset-skyline-sunlight-morning-building-dawn-city-atmosphere-cityscape-dusk-evening-contrast-background-image-clouds-of-background-madrid-landscapes-wallpaper-clams-afterglow-removal-human-settlement-1119150.jpg",
+          "block_title": "Sunset",
+          "block_content": "Sunset is distinct from twilight, which is divided into three stages. The first one is civil twilight."
+        }
+      ],
+      "enableAutoPlay": false,
+      "enableArrows": false,
+      "enableDots": false,
+      "height": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "values": {
+          "desktop": 150,
+          "tablet": 250,
+          "mobile": 250
+        }
+      },
+      "width": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "values": {
+          "desktop": 100,
+          "tablet": 250,
+          "mobile": 250
+        }
+      },
+      "titleTypo": {
+        "fontFamily": "Montserrat",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 30,
+            "tablet": 30,
+            "mobile": 30
+          }
+        },
+        "textTransform": "uppercase",
+        "fontWeight": 800,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": "1.2",
+            "tablet": "1.2",
+            "mobile": "1.2"
+          }
+        }
+      },
+      "contentTypo": {
+        "fontFamily": "Montserrat",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 16,
+            "tablet": 16,
+            "mobile": 16
+          }
+        },
+        "textTransform": "initial",
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": "1.2",
+            "tablet": "1.2",
+            "mobile": "1.2"
+          }
+        }
+      },
+      "titlePadding": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            0,
+            15,
+            15,
+            0
+          ],
+          "tablet": [
+            0,
+            15,
+            15,
+            0
+          ],
+          "mobile": [
+            0,
+            15,
+            15,
+            0
+          ]
+        }
+      },
+      "contentPadding": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            0,
+            50,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            50,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            50,
+            0,
+            0
+          ]
+        }
+      },
+      "effect": "fade",
+      "enableHeight": true,
+      "enableWidth": false,
+      "titleColor": "#000",
+      "contentColor": "#000",
+      "layout": "layout-1"
+    }
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "image": {
+      "type": "array"
+    },
+    "enableAutoPlay": {
+      "type": "boolean",
+      "default": false
+    },
+    "enableArrows": {
+      "type": "boolean",
+      "default": false
+    },
+    "enableDots": {
+      "type": "boolean",
+      "default": false
+    },
+    "height": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 100,
+          "max": 1000
+        },
+        "values": {
+          "desktop": 250,
+          "tablet": 250,
+          "mobile": 250
+        }
+      }
+    },
+    "width": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 50,
+          "max": 2000
+        },
+        "values": {
+          "desktop": 250,
+          "tablet": 250,
+          "mobile": 250
+        }
+      }
+    },
+    "titleTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Montserrat",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 30,
+            "tablet": 30,
+            "mobile": 30
+          }
+        },
+        "textTransform": "uppercase",
+        "fontWeight": 800,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": "1.2",
+            "tablet": "1.2",
+            "mobile": "1.2"
+          }
+        }
+      }
+    },
+    "contentTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Montserrat",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 16,
+            "tablet": 16,
+            "mobile": 16
+          }
+        },
+        "textTransform": "initial",
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": "1.2",
+            "tablet": "1.2",
+            "mobile": "1.2"
+          }
+        }
+      }
+    },
+    "titlePadding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            0,
+            15,
+            15,
+            0
+          ],
+          "tablet": [
+            0,
+            15,
+            15,
+            0
+          ],
+          "mobile": [
+            0,
+            15,
+            15,
+            0
+          ]
+        }
+      }
+    },
+    "contentPadding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            0,
+            50,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            50,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            50,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "effect": {
+      "type": "string",
+      "default": "fade"
+    },
+    "enableHeight": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableWidth": {
+      "type": "boolean",
+      "default": false
+    },
+    "titleColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "contentColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "layout": {
+      "type": "string",
+      "default": "layout-1"
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

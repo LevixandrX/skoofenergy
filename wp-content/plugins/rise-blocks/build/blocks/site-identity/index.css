@@ -1,0 +1,11 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/site-identity/styles/editor.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.rise-blocks-site-identity-logo > div {
+  height: auto !important;
+}
+.rise-blocks-site-identity-logo > div .site-title {
+  margin: 0;
+}
+
+/*# sourceMappingURL=index.css.map*/

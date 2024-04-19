@@ -1,0 +1,292 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/blog",
+  "keywords": [
+    "blog"
+  ],
+  "version": "3.1.1",
+  "title": "Blog",
+  "category": "rise-blocks",
+  "description": "This block will fetch five blog articles either all posts or by category and show it in a grid format.",
+  "supports": {
+    "html": false
+  },
+  "example": {
+    "name": "rise-blocks/blog",
+    "attributes": {
+      "alignment": "left",
+      "postsToShow": 2,
+      "perRow": 2,
+      "order": "desc",
+      "orderBy": "date",
+      "titleTypo": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 22,
+            "tablet": 22,
+            "mobile": 22
+          }
+        },
+        "fontWeight": 600,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      },
+      "contentTypo": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 16,
+            "tablet": 16,
+            "mobile": 16
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.8,
+            "tablet": 1.8,
+            "mobile": 1.8
+          }
+        }
+      },
+      "metaTypo": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 12,
+            "tablet": 12,
+            "mobile": 12
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      },
+      "enableTitle": true,
+      "enableContent": true,
+      "enableFullContent": false,
+      "enableCategory": true,
+      "enableAuthor": true,
+      "enableDate": true,
+      "enableImage": true,
+      "imageSize": "full",
+      "excerptLength": 20,
+      "block_id": "rise-blocks-blog-block-instance-0-1b60932c-fdd8-45ed-9530-dc6810060041"
+    }
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "alignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "postsToShow": {
+      "type": "number",
+      "default": 5
+    },
+    "perRow": {
+      "type": "number",
+      "default": 2
+    },
+    "order": {
+      "type": "string",
+      "default": "desc"
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "date"
+    },
+    "categories": {
+      "type": "string"
+    },
+    "titleTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 22,
+            "tablet": 22,
+            "mobile": 22
+          }
+        },
+        "fontWeight": 600,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      }
+    },
+    "contentTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 16,
+            "tablet": 16,
+            "mobile": 16
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.8,
+            "tablet": 1.8,
+            "mobile": 1.8
+          }
+        }
+      }
+    },
+    "metaTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 12,
+            "tablet": 12,
+            "mobile": 12
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      }
+    },
+    "enableTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableContent": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableFullContent": {
+      "type": "boolean",
+      "default": false
+    },
+    "enableCategory": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableAuthor": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableDate": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "imageSize": {
+      "type": "string",
+      "default": "full"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "titleHoverColor": {
+      "type": "string"
+    },
+    "contentColor": {
+      "type": "string"
+    },
+    "metaColor": {
+      "type": "string"
+    },
+    "excerptLength": {
+      "type": "number",
+      "default": 20
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

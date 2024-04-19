@@ -1,0 +1,99 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/news-1/styles/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.rise-blocks-news-1-wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 60% auto;
+  backface-visibility: hidden;
+}
+.rise-blocks-news-1-wrapper .rise-blocks-news-1-card-wrapper {
+  position: relative;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  display: flex;
+  align-items: flex-end;
+}
+.rise-blocks-news-1-wrapper .rise-blocks-news-1-card-wrapper:first-child {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.rise-blocks-news-1-wrapper .rise-blocks-news-1-card-wrapper .rise-blocks-news-1-card {
+  position: relative;
+  line-height: 1;
+}
+.rise-blocks-news-1-wrapper .rise-blocks-news-1-card-wrapper .rise-blocks-news-1-card .rise-blocks-news-1-image {
+  position: relative;
+  display: block;
+  height: 100%;
+}
+.rise-blocks-news-1-wrapper .rise-blocks-news-1-card-wrapper .rise-blocks-news-1-card .rise-blocks-news-1-post-content {
+  flex: 0 0 100%;
+}
+.rise-blocks-news-1-wrapper .rise-blocks-news-1-card-wrapper .rise-blocks-news-1-card .rise-blocks-news-1-post-content p {
+  margin: 15px 0 0;
+  line-height: 1.7;
+  color: #fff;
+}
+.rise-blocks-news-1-wrapper .rise-blocks-news-1-card-wrapper .rise-blocks-news-1-body {
+  position: relative;
+  z-index: 99;
+}
+.rise-blocks-news-1-wrapper .rise-blocks-news-1-card-wrapper .rise-blocks-news-1-body .rise-blocks-news-1-post-title {
+  color: #fff;
+  margin: 15px 0;
+}
+.rise-blocks-news-1-wrapper .rise-blocks-news-1-card-wrapper .rise-blocks-news-1-body .rise-blocks-news-1-post-title a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: 28px;
+  line-height: 32px;
+}
+.rise-blocks-news-1-wrapper .rise-blocks-news-1-card-wrapper .rise-blocks-news-1-body .rise-blocks-news-1-post-cat a {
+  background: #0b0b0b;
+  padding: 6px 7px;
+  vertical-align: middle;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 16px;
+}
+.rise-blocks-news-1-wrapper .rise-blocks-news-1-card-wrapper .rise-blocks-news-1-body .rise-blocks-news-1-meta-wrapper {
+  flex: 0 0 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.rise-blocks-news-1-wrapper .rise-blocks-news-1-card-wrapper .rise-blocks-news-1-body .rise-blocks-news-1-meta-wrapper a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 16px;
+}
+.rise-blocks-news-1-wrapper .rise-blocks-news-1-card-wrapper .rise-blocks-news-1-body .rise-blocks-news-1-meta-wrapper .rise-blocks-news-1-post-date.meta-content {
+  display: flex;
+  align-items: center;
+}
+.rise-blocks-news-1-wrapper .rise-blocks-news-1-card-wrapper .rise-blocks-news-1-body .rise-blocks-news-1-meta-wrapper .rise-blocks-news-1-post-date.meta-content i {
+  margin-right: 6px;
+}
+.rise-blocks-news-1-wrapper .rise-blocks-news-1-card-wrapper .rise-blocks-news-1-overlay {
+  bottom: 0;
+  display: block;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4) 20%, #000 90%);
+  opacity: 0.6;
+  height: 100%;
+  left: 0;
+}
+@media (max-width: 576px) {
+  .rise-blocks-news-1-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

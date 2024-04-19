@@ -1,0 +1,72 @@
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/profile-cards/styles/editor.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* Transition */
+.rise-blocks-block-lists > div {
+  transition: all 0.3s linear;
+}
+
+.rise-blocks-rectangle-layout .rise-blocks-block-lists .rise-blocks-profile-card {
+  overflow: hidden;
+}
+
+.rise-blocks-circle-layout > .rise-blocks-parent-block-selector {
+  margin-bottom: 90px;
+}
+
+.rise-blocks-border-enable .block-editor-block-list__layout > div:not(.block-list-appender) {
+  transition: all 0.3s linear;
+  border: 1px solid #ddd;
+}
+
+.rise-blocks-items-per-row-1 .block-editor-block-list__layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rise-blocks-items-per-row-1 .rise-blocks-profile-card {
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+
+.rise-blocks-items-per-row-2 .block-editor-block-list__layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rise-blocks-items-per-row-2 .rise-blocks-profile-card {
+  max-width: 48%;
+  flex: 0 0 48%;
+}
+
+.rise-blocks-items-per-row-3 .block-editor-block-list__layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rise-blocks-items-per-row-3 .rise-blocks-profile-card {
+  max-width: 32%;
+  flex: 0 0 32%;
+}
+
+.rise-blocks-items-per-row-4 .block-editor-block-list__layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rise-blocks-items-per-row-4 .rise-blocks-profile-card {
+  max-width: 23%;
+  flex: 0 0 23%;
+}
+
+.rise-blocks-items-per-row-5 .block-editor-block-list__layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rise-blocks-items-per-row-5 .rise-blocks-profile-card {
+  max-width: 18%;
+  flex: 0 0 18%;
+}
+
+/*# sourceMappingURL=index.css.map*/

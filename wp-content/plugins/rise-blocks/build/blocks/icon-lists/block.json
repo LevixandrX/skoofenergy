@@ -1,0 +1,692 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/icon-lists",
+  "keywords": [
+    "Icon Lists"
+  ],
+  "version": "3.1.1",
+  "title": "Icon Lists",
+  "category": "rise-blocks",
+  "description": "This blocks enables you to effortlessly present and style information with icons in a structured list format.",
+  "supports": {
+    "align": [
+      "left",
+      "center",
+      "right"
+    ]
+  },
+  "example": {
+    "name": "rise-blocks/icon-lists",
+    "attributes": {
+      "isInit": true,
+      "count": 4,
+      "alignment": "center",
+      "selectedIcon": {
+        "icon": "fa-check",
+        "page": 9
+      },
+      "iconSize": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 10,
+          "max": 200
+        },
+        "values": {
+          "desktop": 16,
+          "tablet": 16,
+          "mobile": 16
+        }
+      },
+      "titleTypo": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 16,
+            "tablet": 16,
+            "mobile": 16
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.6,
+            "tablet": 1.6,
+            "mobile": 1.6
+          }
+        }
+      },
+      "iconListPadding": {
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "em",
+          "rem"
+        ],
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "values": {
+          "desktop": [
+            0,
+            0,
+            5,
+            0
+          ],
+          "tablet": [
+            0,
+            0,
+            5,
+            0
+          ],
+          "mobile": [
+            0,
+            0,
+            5,
+            0
+          ]
+        }
+      },
+      "headingPadding": {
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "em",
+          "rem"
+        ],
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "titleColor": "#000",
+      "iconColors": "#515151",
+      "block_id": "rise-blocks-0-694a42d8-67ca-48bd-95de-7b7e93cacae6"
+    },
+    "innerBlocks": [
+      {
+        "name": "rise-blocks/icon-list",
+        "attributes": {
+          "isInit": true,
+          "selectedIcon": {
+            "icon": "fa-check",
+            "page": 9
+          },
+          "iconSize": {
+            "activeUnit": "px",
+            "units": [
+              "px"
+            ],
+            "range": {
+              "min": 10,
+              "max": 200
+            },
+            "values": {
+              "desktop": 16,
+              "tablet": 16,
+              "mobile": 16
+            }
+          },
+          "titleTypo": {
+            "fontFamily": "",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "px",
+              "values": {
+                "desktop": 16,
+                "tablet": 16,
+                "mobile": 16
+              }
+            },
+            "fontWeight": 600,
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": 1.6,
+                "tablet": 1.6,
+                "mobile": 1.6
+              }
+            }
+          },
+          "iconListPadding": {
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "em",
+              "rem"
+            ],
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "values": {
+              "desktop": [
+                0,
+                0,
+                5,
+                0
+              ],
+              "tablet": [
+                0,
+                0,
+                5,
+                0
+              ],
+              "mobile": [
+                0,
+                0,
+                5,
+                0
+              ]
+            }
+          },
+          "headingPadding": {
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "em",
+              "rem"
+            ],
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "values": {
+              "desktop": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "tablet": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "mobile": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          },
+          "titleColor": "#000",
+          "iconColors": "#515151",
+          "block_id": "rise-blocks-wp-block-rise-blocks-icon-list-0-59d0ac61-ca95-4883-a0c6-0b477d1691ef",
+          "title": "Home"
+        }
+      },
+      {
+        "name": "rise-blocks/icon-list",
+        "attributes": {
+          "isInit": true,
+          "selectedIcon": {
+            "icon": "fa-check",
+            "page": 9
+          },
+          "iconSize": {
+            "activeUnit": "px",
+            "units": [
+              "px"
+            ],
+            "range": {
+              "min": 10,
+              "max": 200
+            },
+            "values": {
+              "desktop": 16,
+              "tablet": 16,
+              "mobile": 16
+            }
+          },
+          "titleTypo": {
+            "fontFamily": "",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "px",
+              "values": {
+                "desktop": 16,
+                "tablet": 16,
+                "mobile": 16
+              }
+            },
+            "fontWeight": 600,
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": 1.6,
+                "tablet": 1.6,
+                "mobile": 1.6
+              }
+            }
+          },
+          "iconListPadding": {
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "em",
+              "rem"
+            ],
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "values": {
+              "desktop": [
+                0,
+                0,
+                5,
+                0
+              ],
+              "tablet": [
+                0,
+                0,
+                5,
+                0
+              ],
+              "mobile": [
+                0,
+                0,
+                5,
+                0
+              ]
+            }
+          },
+          "headingPadding": {
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "em",
+              "rem"
+            ],
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "values": {
+              "desktop": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "tablet": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "mobile": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          },
+          "titleColor": "#000",
+          "iconColors": "#515151",
+          "block_id": "rise-blocks-wp-block-rise-blocks-icon-list-1-42bd4a77-bbfc-47c7-91bf-be3b2a9610cd",
+          "title": "Work"
+        }
+      },
+      {
+        "name": "rise-blocks/icon-list",
+        "attributes": {
+          "isInit": true,
+          "selectedIcon": {
+            "icon": "fa-check",
+            "page": 9
+          },
+          "iconSize": {
+            "activeUnit": "px",
+            "units": [
+              "px"
+            ],
+            "range": {
+              "min": 10,
+              "max": 200
+            },
+            "values": {
+              "desktop": 16,
+              "tablet": 16,
+              "mobile": 16
+            }
+          },
+          "titleTypo": {
+            "fontFamily": "",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "px",
+              "values": {
+                "desktop": 16,
+                "tablet": 16,
+                "mobile": 16
+              }
+            },
+            "fontWeight": 600,
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": 1.6,
+                "tablet": 1.6,
+                "mobile": 1.6
+              }
+            }
+          },
+          "iconListPadding": {
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "em",
+              "rem"
+            ],
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "values": {
+              "desktop": [
+                0,
+                0,
+                5,
+                0
+              ],
+              "tablet": [
+                0,
+                0,
+                5,
+                0
+              ],
+              "mobile": [
+                0,
+                0,
+                5,
+                0
+              ]
+            }
+          },
+          "headingPadding": {
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "em",
+              "rem"
+            ],
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "values": {
+              "desktop": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "tablet": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "mobile": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          },
+          "titleColor": "#000",
+          "iconColors": "#515151",
+          "block_id": "rise-blocks-wp-block-rise-blocks-icon-list-2-dd9582c0-1d4b-4b59-b1fa-5fe0463c847e",
+          "title": "Messages"
+        }
+      },
+      {
+        "name": "rise-blocks/icon-list",
+        "attributes": {
+          "isInit": true,
+          "selectedIcon": {
+            "icon": "fa-check",
+            "page": 9
+          },
+          "iconSize": {
+            "activeUnit": "px",
+            "units": [
+              "px"
+            ],
+            "range": {
+              "min": 10,
+              "max": 200
+            },
+            "values": {
+              "desktop": 16,
+              "tablet": 16,
+              "mobile": 16
+            }
+          },
+          "titleTypo": {
+            "fontFamily": "",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "px",
+              "values": {
+                "desktop": 16,
+                "tablet": 16,
+                "mobile": 16
+              }
+            },
+            "fontWeight": 600,
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": 1.6,
+                "tablet": 1.6,
+                "mobile": 1.6
+              }
+            }
+          },
+          "iconListPadding": {
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "em",
+              "rem"
+            ],
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "values": {
+              "desktop": [
+                0,
+                0,
+                5,
+                0
+              ],
+              "tablet": [
+                0,
+                0,
+                5,
+                0
+              ],
+              "mobile": [
+                0,
+                0,
+                5,
+                0
+              ]
+            }
+          },
+          "headingPadding": {
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "em",
+              "rem"
+            ],
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "values": {
+              "desktop": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "tablet": [
+                0,
+                0,
+                0,
+                0
+              ],
+              "mobile": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          },
+          "titleColor": "#000",
+          "iconColors": "#515151",
+          "block_id": "rise-blocks-wp-block-rise-blocks-icon-list-3-7cd53a53-dd83-4888-897c-480f385101f1",
+          "title": "Profile"
+        }
+      }
+    ]
+  },
+  "attributes": {
+    "isInit": {
+      "type": "boolean",
+      "default": false
+    },
+    "count": {
+      "type": "number",
+      "default": 2
+    },
+    "block_id": {
+      "type": "string"
+    },
+    "selectedIcon": {
+      "type": "object"
+    },
+    "iconSize": {
+      "type": "object"
+    },
+    "titleTypo": {
+      "type": "object"
+    },
+    "iconListPadding": {
+      "type": "object"
+    },
+    "headingPadding": {
+      "type": "object"
+    },
+    "boxBackgroundColor": {
+      "type": "string"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "iconColors": {
+      "type": "string"
+    },
+    "alignment": {
+      "type": "string",
+      "default": "center"
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

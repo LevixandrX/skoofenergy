@@ -1,0 +1,80 @@
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/icon-boxes/styles/editor.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* Shadow */
+.rise-blocks-shadow-enable .block-editor-block-list__block {
+  box-shadow: 0px 0 16px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Grid */
+.rise-blocks-block-lists > div > div {
+  height: 100%;
+}
+
+/* Block top gap */
+.rise-blocks-icon-blocks-wrapper .wp-block {
+  margin-top: 70px;
+}
+
+/* Core style override */
+.rise-blocks-block-lists .block-editor-block-list__block {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+/* Editor style */
+.rise-blocks-icon-blocks-wrapper .block-list-appender {
+  flex: 100%;
+}
+.rise-blocks-icon-blocks-wrapper > .block-editor-block-list__block > .block-editor-block-list__block-edit,
+.rise-blocks-icon-blocks-wrapper .block-editor-block-list__layout > .block-editor-block-list__block > .block-editor-block-list__block-edit {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.rise-blocks-items-per-row-1 .block-editor-block-list__layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+.rise-blocks-items-per-row-1 .rise-blocks-icon-box {
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+
+.rise-blocks-items-per-row-2 .block-editor-block-list__layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+.rise-blocks-items-per-row-2 .rise-blocks-icon-box {
+  max-width: 50%;
+  flex: 0 0 50%;
+}
+
+.rise-blocks-items-per-row-3 .block-editor-block-list__layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+.rise-blocks-items-per-row-3 .rise-blocks-icon-box {
+  max-width: 33.33%;
+  flex: 0 0 33.33%;
+}
+
+.rise-blocks-items-per-row-4 .block-editor-block-list__layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+.rise-blocks-items-per-row-4 .rise-blocks-icon-box {
+  max-width: 25%;
+  flex: 0 0 25%;
+}
+
+.rise-blocks-items-per-row-5 .block-editor-block-list__layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+.rise-blocks-items-per-row-5 .rise-blocks-icon-box {
+  max-width: 20%;
+  flex: 0 0 20%;
+}
+
+/*# sourceMappingURL=index.css.map*/

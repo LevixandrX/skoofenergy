@@ -1,0 +1,93 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/profile-card",
+  "keywords": [
+    "profile card"
+  ],
+  "version": "3.1.1",
+  "title": "Profile Box",
+  "category": "rise-blocks",
+  "description": "This block allows you to add User information along with social media",
+  "supports": {
+    "className": false
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "isInit": {
+      "type": "boolean",
+      "default": false
+    },
+    "count": {
+      "type": "number",
+      "default": 0
+    },
+    "nameTag": {
+      "type": "number",
+      "default": 3
+    },
+    "designation": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "image": {
+      "type": "object"
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "backgroundPosition": {
+      "type": "string"
+    },
+    "activeLayout": {
+      "type": "string"
+    },
+    "namePadding": {
+      "type": "object"
+    },
+    "designationPadding": {
+      "type": "object"
+    },
+    "nameTypography": {
+      "type": "object"
+    },
+    "designationTypography": {
+      "type": "object"
+    },
+    "contentTypography": {
+      "type": "object"
+    },
+    "nameColor": {
+      "type": "string"
+    },
+    "designationColor": {
+      "type": "string"
+    },
+    "contentColor": {
+      "type": "string"
+    },
+    "socialMediaColor": {
+      "type": "string"
+    },
+    "socialMediaHoverColor": {
+      "type": "string"
+    },
+    "socialMedia": {
+      "type": "array"
+    },
+    "socialMediaBorderRadius": {
+      "type": "object"
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

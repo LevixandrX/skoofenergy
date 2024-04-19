@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/icon-list/style-index.css","mappings":";;;AAEA;EACI;AADJ;;AAIA;EACI;AADJ,C","sources":["webpack://rise-blocks/./src/blocks/icon-list/style/style.scss"],"sourcesContent":["$prefix: '.rise-blocks';\r\n\r\n#{$prefix}-center {\r\n    text-align: center;\r\n}\r\n\r\n#{$prefix}-right {\r\n    text-align: right;\r\n}"],"names":[],"sourceRoot":""}

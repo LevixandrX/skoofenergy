@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/button/index.css","mappings":";;;AAEA;EACC;AADD,C","sources":["webpack://rise-blocks/./src/blocks/button/styles/editor.scss"],"sourcesContent":["$prefix: '.rise-blocks';\r\n\r\n#{$prefix}-button__inline-link-input input{\r\n\tmax-width: 100%;\r\n}\r\n\r\n"],"names":[],"sourceRoot":""}

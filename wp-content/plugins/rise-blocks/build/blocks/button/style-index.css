@@ -1,0 +1,27 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/button/styles/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-rise-blocks-button {
+  min-width: 150px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+.wp-block-rise-blocks-button.rise-blocks-icon-left i {
+  order: 1;
+  margin-right: 10px;
+}
+.wp-block-rise-blocks-button.rise-blocks-icon-left span {
+  order: 2;
+}
+.wp-block-rise-blocks-button.rise-blocks-icon-right i {
+  order: 2;
+  margin-left: 10px;
+}
+.wp-block-rise-blocks-button.rise-blocks-icon-right span {
+  order: 1;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

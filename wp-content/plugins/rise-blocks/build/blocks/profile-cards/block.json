@@ -1,0 +1,532 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/profile-cards",
+  "keywords": [
+    "profile cards"
+  ],
+  "version": "3.1.1",
+  "title": "Profile Cards",
+  "category": "rise-blocks",
+  "description": "This block allows you to add User information along with social media",
+  "supports": {
+    "className": false
+  },
+  "example": {
+    "name": "rise-blocks/profile-cards",
+    "attributes": {
+      "isInit": true,
+      "count": 3,
+      "boxShadow": true,
+      "border": false,
+      "activeLayout": "circle",
+      "itemsPerRow": 2,
+      "gutter": 15
+    },
+    "innerBlocks": [
+      {
+        "name": "rise-blocks/profile-card",
+        "attributes": {
+          "isInit": true,
+          "count": 0,
+          "nameTag": 3,
+          "designation": "Guitarist",
+          "name": "John Doe",
+          "content": "Lorem Ipsum is simply dummy text of typing and typesetting industry. Lorem Ipsum has been the",
+          "image": {
+            "size": "full",
+            "id": 1788,
+            "alt": "",
+            "url": "https://get.pxhere.com/photo/work-hand-man-person-suit-people-photography-looking-male-guy-portrait-model-corporate-office-studio-professional-business-smiling-smile-conversation-brand-caucasian-face-men-one-happy-glasses-head-photograph-moustache-eyewear-expression-handsome-attractive-adult-businessman-executive-success-manager-sense-facial-hair-vision-care-599421.jpg",
+            "height": 640,
+            "width": 426
+          },
+          "backgroundPosition": "center center",
+          "activeLayout": "circle",
+          "namePadding": {
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "properties": [
+              "top",
+              "right",
+              "bottom",
+              "left"
+            ],
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "rem"
+            ],
+            "values": {
+              "desktop": [
+                20,
+                null,
+                10,
+                null
+              ],
+              "tablet": [
+                "15",
+                "",
+                "10",
+                ""
+              ],
+              "mobile": [
+                "15",
+                "",
+                "10",
+                ""
+              ]
+            }
+          },
+          "designationPadding": {
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "properties": [
+              "top",
+              "right",
+              "bottom",
+              "left"
+            ],
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "rem"
+            ],
+            "values": {
+              "desktop": [
+                "",
+                "",
+                5,
+                ""
+              ],
+              "tablet": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "mobile": [
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          },
+          "nameTypography": {
+            "fontFamily": "",
+            "textTransform": "capitalize",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "px",
+              "values": {
+                "desktop": 18,
+                "tablet": 18,
+                "mobile": 18
+              },
+              "range": {
+                "min": 0,
+                "max": 100
+              }
+            },
+            "fontWeight": 600,
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": "1.5",
+                "tablet": "1.5",
+                "mobile": "1.5"
+              }
+            }
+          },
+          "designationTypography": {
+            "fontFamily": "Raleway",
+            "textTransform": "capitalize",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "rem",
+              "values": {
+                "desktop": 0.8,
+                "tablet": 0.8,
+                "mobile": 0.8
+              }
+            },
+            "fontWeight": 500,
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": "1.9",
+                "tablet": "1.9",
+                "mobile": "1.9"
+              }
+            }
+          },
+          "contentTypography": {
+            "fontFamily": "Lato",
+            "textTransform": "normal",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "px",
+              "values": {
+                "desktop": 16,
+                "tablet": 16,
+                "mobile": 16
+              }
+            },
+            "fontWeight": 400,
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": 1.5,
+                "tablet": "1.8",
+                "mobile": "1.8"
+              },
+              "range": {
+                "min": 0,
+                "max": 100
+              }
+            }
+          },
+          "nameColor": "#000000",
+          "designationColor": "#434345",
+          "contentColor": "#949494",
+          "socialMediaColor": "#000",
+          "socialMediaHoverColor": "#fff",
+          "socialMedia": [
+            {
+              "url": "http://www.facebook.com",
+              "icon": {
+                "icon": " fa fa-facebook-official",
+                "page": 1
+              }
+            }
+          ],
+          "socialMediaBorderRadius": {
+            "activeUnit": "%",
+            "isLinkActive": true,
+            "properties": [
+              "top",
+              "right",
+              "bottom",
+              "left"
+            ],
+            "responsiveViews": [
+              "desktop"
+            ],
+            "units": [
+              "px",
+              "%"
+            ],
+            "values": {
+              "desktop": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          },
+          "className": "wp-block-rise-blocks-profile-card"
+        }
+      },
+      {
+        "name": "rise-blocks/profile-card",
+        "attributes": {
+          "isInit": true,
+          "count": 0,
+          "nameTag": 3,
+          "designation": "Vocalist",
+          "name": "Johnathan Doe",
+          "content": "Lorem Ipsum is simply dummy text of typing and typesetting industry. Lorem Ipsum has been the",
+          "image": {
+            "size": "full",
+            "id": 1168,
+            "alt": "",
+            "url": "https://get.pxhere.com/photo/person-girl-woman-hair-photography-portrait-model-youth-fashion-blue-lady-hairstyle-smile-long-hair-face-dress-eye-head-skin-beauty-blond-photo-shoot-brown-hair-portrait-photography-108386.jpg",
+            "height": 1920,
+            "width": 1280
+          },
+          "backgroundColor": "transparent",
+          "backgroundPosition": "center center",
+          "activeLayout": "circle",
+          "namePadding": {
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "properties": [
+              "top",
+              "right",
+              "bottom",
+              "left"
+            ],
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "rem"
+            ],
+            "values": {
+              "desktop": [
+                20,
+                null,
+                10,
+                null
+              ],
+              "tablet": [
+                "15",
+                "",
+                "10",
+                ""
+              ],
+              "mobile": [
+                "15",
+                "",
+                "10",
+                ""
+              ]
+            }
+          },
+          "designationPadding": {
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "properties": [
+              "top",
+              "right",
+              "bottom",
+              "left"
+            ],
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "rem"
+            ],
+            "values": {
+              "desktop": [
+                "",
+                "",
+                5,
+                ""
+              ],
+              "tablet": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "mobile": [
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          },
+          "nameTypography": {
+            "fontFamily": "",
+            "textTransform": "capitalize",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "px",
+              "values": {
+                "desktop": 18,
+                "tablet": 18,
+                "mobile": 18
+              },
+              "range": {
+                "min": 0,
+                "max": 100
+              }
+            },
+            "fontWeight": 600,
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": "1.5",
+                "tablet": "1.5",
+                "mobile": "1.5"
+              }
+            }
+          },
+          "designationTypography": {
+            "fontFamily": "Raleway",
+            "textTransform": "capitalize",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "rem",
+              "values": {
+                "desktop": 0.8,
+                "tablet": 0.8,
+                "mobile": 0.8
+              }
+            },
+            "fontWeight": 500,
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": "1.9",
+                "tablet": "1.9",
+                "mobile": "1.9"
+              }
+            }
+          },
+          "contentTypography": {
+            "fontFamily": "Lato",
+            "textTransform": "normal",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "px",
+              "values": {
+                "desktop": 16,
+                "tablet": 16,
+                "mobile": 16
+              }
+            },
+            "fontWeight": 400,
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": 1.5,
+                "tablet": "1.8",
+                "mobile": "1.8"
+              },
+              "range": {
+                "min": 0,
+                "max": 100
+              }
+            }
+          },
+          "nameColor": "#000000",
+          "designationColor": "#434345",
+          "contentColor": "#949494",
+          "socialMediaColor": "#000",
+          "socialMediaHoverColor": "#fff",
+          "socialMedia": [
+            {
+              "url": "http://www.facebook.com",
+              "icon": {
+                "icon": " fa fa-facebook-official",
+                "page": 1
+              }
+            }
+          ],
+          "socialMediaBorderRadius": {
+            "activeUnit": "%",
+            "isLinkActive": true,
+            "properties": [
+              "top",
+              "right",
+              "bottom",
+              "left"
+            ],
+            "responsiveViews": [
+              "desktop"
+            ],
+            "units": [
+              "px",
+              "%"
+            ],
+            "values": {
+              "desktop": [
+                0,
+                0,
+                0,
+                0
+              ]
+            }
+          },
+          "className": "wp-block-rise-blocks-profile-card"
+        }
+      }
+    ]
+  },
+  "attributes": {
+    "isInit": {
+      "type": "boolean",
+      "default": false
+    },
+    "count": {
+      "type": "number",
+      "default": 2
+    },
+    "boxShadow": {
+      "type": "boolean",
+      "default": true
+    },
+    "border": {
+      "type": "boolean",
+      "default": false
+    },
+    "activeLayout": {
+      "type": "string"
+    },
+    "block_id": {
+      "type": "string"
+    },
+    "itemsPerRow": {
+      "type": "number"
+    },
+    "gutter": {
+      "type": "number"
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

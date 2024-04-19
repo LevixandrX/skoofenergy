@@ -1,0 +1,62 @@
+.rise-block-marketplace-wrapper {
+    background: #fff;
+    padding: 40px;
+    margin: 20px 20px 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rise-block-marketplace-items img {
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.rise-block-marketplace-items .rise-block-marketplace-items-box {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+.rise-block-marketplace-items {
+    flex: 0 0 31.4%;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+
+.rise-block-marketplace-items h3 {
+    margin: 0 0 20px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+}
+
+.button-wrapper a {
+    border-radius: 3px;
+    background-color: rgb(55, 97, 207);
+    z-index: 26;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 10px 8px 10px;
+    vertical-align: middle;
+    position: relative;
+    transition: all .3s;
+    font-size: 13px;
+}
+
+
+.button-wrapper a.view-demo {
+    background: #ff2c2c;
+}
+
+.button-wrapper a:hover {
+    background-color: rgb(9 40 120);
+}
+
+
+.button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0;
+}

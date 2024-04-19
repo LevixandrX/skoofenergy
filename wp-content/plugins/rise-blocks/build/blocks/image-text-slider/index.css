@@ -1,0 +1,83 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/image-text-slider/styles/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-rise-blocks-image-text-slider .slick-track > div {
+  z-index: -1;
+}
+.wp-block-rise-blocks-image-text-slider .slick-track > div.slick-active {
+  z-index: 99999;
+}
+.wp-block-rise-blocks-image-text-slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  background: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-size: 25px;
+  line-height: 1;
+  z-index: 99;
+  padding: 0;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.wp-block-rise-blocks-image-text-slider .slick-arrow:hover {
+  background-color: #FF8500;
+}
+.wp-block-rise-blocks-image-text-slider .slick-arrow.slick-next {
+  right: 10px;
+}
+.wp-block-rise-blocks-image-text-slider .slick-arrow.slick-prev {
+  left: 10px;
+}
+.wp-block-rise-blocks-image-text-slider ul.slick-dots {
+  position: absolute;
+  bottom: 30px;
+  display: flex !important;
+  list-style: none;
+  left: 62%;
+  right: 0;
+  margin: auto;
+  justify-content: center;
+  transform: translate(-50%, 0);
+}
+.wp-block-rise-blocks-image-text-slider ul.slick-dots li {
+  padding: 5px;
+}
+.wp-block-rise-blocks-image-text-slider ul.slick-dots li button {
+  border: none;
+  background: #000;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  font-size: 0;
+  cursor: pointer;
+  padding: 0;
+}
+.wp-block-rise-blocks-image-text-slider ul.slick-dots li.slick-active button, .wp-block-rise-blocks-image-text-slider ul.slick-dots li:hover button {
+  background-color: #FF8500;
+}
+.wp-block-rise-blocks-image-text-slider .rise-blocks-image-text-slider {
+  position: relative;
+}
+.wp-block-rise-blocks-image-text-slider .rise-blocks-image-text-slider .rise-blocks-remove-slider {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #fff;
+  border: none;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+
+button.rise-blocks-image-uploader-trigger {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=index.css.map*/

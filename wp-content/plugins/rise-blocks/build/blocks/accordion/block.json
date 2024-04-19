@@ -1,0 +1,341 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/accordion",
+  "keywords": [
+    "accordion",
+    "faq"
+  ],
+  "version": "3.1.1",
+  "title": "Accordion / FAQ",
+  "category": "rise-blocks",
+  "description": "This block allows you to add collapsible content/faqs on a page or post. It helps for reducing scrolling and categorizing information.",
+  "example": {
+    "name": "rise-blocks/accordion",
+    "attributes": {
+      "isInit": true,
+      "tag": "h3",
+      "headingBackground": "#f6f6f6",
+      "headingActiveBackground": "#0693e3",
+      "headingColor": "#000000",
+      "headingActiveColor": "#ffffff",
+      "headingTypo": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 18,
+            "tablet": 18,
+            "mobile": 18
+          }
+        },
+        "fontWeight": 300,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.5,
+            "tablet": 1.5,
+            "mobile": 1.5
+          }
+        }
+      },
+      "contentTypo": {
+        "fontFamily": "",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 15,
+            "tablet": 15,
+            "mobile": 15
+          }
+        },
+        "fontWeight": 300,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.5,
+            "tablet": 1.5,
+            "mobile": 1.5
+          }
+        }
+      },
+      "headingPadding": {
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "em",
+          "rem"
+        ],
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "values": {
+          "desktop": [
+            10,
+            20,
+            10,
+            20
+          ],
+          "tablet": [
+            10,
+            20,
+            10,
+            20
+          ],
+          "mobile": [
+            10,
+            20,
+            10,
+            20
+          ]
+        }
+      },
+      "contentPadding": {
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "em",
+          "rem"
+        ],
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "values": {
+          "desktop": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "tablet": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "mobile": [
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      },
+      "block_id": "rise-blocks-accordion-block-instance-4-9fb53b89-ea81-4dfe-9f93-d77b1c1d76df"
+    },
+    "innerBlocks": [
+      {
+        "name": "rise-blocks/accordion-item",
+        "attributes": {
+          "headingTypo": {
+            "fontFamily": "",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "px",
+              "values": {
+                "desktop": 18,
+                "tablet": 18,
+                "mobile": 18
+              }
+            },
+            "fontWeight": 300,
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": 1.5,
+                "tablet": 1.5,
+                "mobile": 1.5
+              }
+            }
+          },
+          "contentTypo": {
+            "fontFamily": "",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "px",
+              "values": {
+                "desktop": 15,
+                "tablet": 15,
+                "mobile": 15
+              }
+            },
+            "fontWeight": 300,
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": 1.5,
+                "tablet": 1.5,
+                "mobile": 1.5
+              }
+            }
+          },
+          "headingPadding": {
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "em",
+              "rem"
+            ],
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "values": {
+              "desktop": [
+                10,
+                20,
+                10,
+                20
+              ],
+              "tablet": [
+                10,
+                20,
+                10,
+                20
+              ],
+              "mobile": [
+                10,
+                20,
+                10,
+                20
+              ]
+            }
+          },
+          "contentPadding": {
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "em",
+              "rem"
+            ],
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "values": {
+              "desktop": [
+                20,
+                20,
+                20,
+                20
+              ],
+              "tablet": [
+                20,
+                20,
+                20,
+                20
+              ],
+              "mobile": [
+                20,
+                20,
+                20,
+                20
+              ]
+            }
+          },
+          "tag": "h3",
+          "headingBackground": "#f6f6f6",
+          "headingActiveBackground": "#0693e3",
+          "headingColor": "#000000",
+          "headingActiveColor": "#ffffff",
+          "block_id": "rise-blocks-accordion-item-block-instance-4-f998b49b-6f19-4cc7-99ad-7899c31d21c1",
+          "title": "What is the full form of a FAQ?"
+        },
+        "innerBlocks": [
+          {
+            "name": "core/paragraph",
+            "attributes": {
+              "content": "This is accordion description.",
+              "dropCap": false
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "isInit": {
+      "type": "boolean",
+      "default": false
+    },
+    "block_id": {
+      "type": "string"
+    },
+    "headingTypo": {
+      "type": "object"
+    },
+    "contentTypo": {
+      "type": "object"
+    },
+    "tag": {
+      "type": "string",
+      "default": "h3"
+    },
+    "headingBackground": {
+      "type": "string",
+      "default": "#f6f6f6"
+    },
+    "headingActiveBackground": {
+      "type": "string",
+      "default": "#007fff"
+    },
+    "headingColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "headingActiveColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "headingPadding": {
+      "type": "object"
+    },
+    "contentPadding": {
+      "type": "object"
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/icon-list",
+  "keywords": [
+    "Icon List"
+  ],
+  "version": "3.1.1",
+  "title": "Icon List",
+  "category": "rise-blocks",
+  "description": "Display list with icon and title",
+  "attributes": {
+    "isInit": {
+      "type": "boolean",
+      "default": false
+    },
+    "block_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "selectedIcon": {
+      "type": "object"
+    },
+    "iconSize": {
+      "type": "object"
+    },
+    "titleTypo": {
+      "type": "object"
+    },
+    "iconListPadding": {
+      "type": "object"
+    },
+    "headingPadding": {
+      "type": "object"
+    },
+    "boxBackgroundColor": {
+      "type": "string"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "iconColors": {
+      "type": "string"
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,101 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/icon-box",
+  "keywords": [
+    "icon boxes"
+  ],
+  "version": "3.1.1",
+  "title": "Icon Box",
+  "category": "rise-blocks",
+  "description": "Display information along with icon and short description",
+  "attributes": {
+    "isInit": {
+      "type": "boolean",
+      "default": false
+    },
+    "block_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "string"
+    },
+    "titleTag": {
+      "type": "string",
+      "default": "2"
+    },
+    "alignment": {
+      "type": "string",
+      "default": "center"
+    },
+    "isImageIcon": {
+      "type": "boolean"
+    },
+    "image": {
+      "type": "object"
+    },
+    "imageWidth": {
+      "type": "object"
+    },
+    "imageRadius": {
+      "type": "number"
+    },
+    "selectedIcon": {
+      "type": "object"
+    },
+    "activeIconLayout": {
+      "type": "string"
+    },
+    "gutter": {
+      "type": "number"
+    },
+    "titleTypo": {
+      "type": "object"
+    },
+    "contentTypo": {
+      "type": "object"
+    },
+    "iconsBoxSize": {
+      "type": "object"
+    },
+    "iconSize": {
+      "type": "object"
+    },
+    "iconBorderWidth": {
+      "type": "number"
+    },
+    "boxPadding": {
+      "type": "object"
+    },
+    "headingPadding": {
+      "type": "object"
+    },
+    "boxBackgroundColor": {
+      "type": "string"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "contentColor": {
+      "type": "string"
+    },
+    "iconColors": {
+      "type": "object"
+    },
+    "wrapperLink": {
+      "type": "string",
+      "default": ""
+    },
+    "wrapperTarget": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,369 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/carousel-post",
+  "keywords": [
+    "carousel",
+    "slider"
+  ],
+  "version": "3.1.1",
+  "title": "Carousel Post",
+  "category": "rise-blocks",
+  "description": "Carousel Post Block is for creating beautiful Gutenberg post grid blocks, post slider blocks and post carousel blocks quickly.",
+  "supports": {
+    "html": false
+  },
+  "example": {
+    "name": "rise-blocks/carousel-post",
+    "attributes": {
+      "title": "Carousel Post",
+      "alignment": "center",
+      "postsToShow": 5,
+      "order": "desc",
+      "orderBy": "date",
+      "headingTypo": {
+        "fontFamily": "Roboto",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 20,
+            "tablet": 20,
+            "mobile": 20
+          }
+        },
+        "textTransform": "uppercase",
+        "fontWeight": 700,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": "1.2",
+            "tablet": "1.2",
+            "mobile": "1.2"
+          }
+        }
+      },
+      "titleTypo": {
+        "fontFamily": "Roboto",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 20,
+            "tablet": 20,
+            "mobile": 20
+          }
+        },
+        "fontWeight": 500,
+        "lineHeight": {
+          "activeUnit": "px",
+          "units": [
+            "px"
+          ],
+          "values": {
+            "desktop": "28",
+            "tablet": "28",
+            "mobile": "28"
+          }
+        }
+      },
+      "metaTypo": {
+        "fontFamily": "Roboto",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 12,
+            "tablet": 12,
+            "mobile": 12
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": "1.2",
+            "tablet": "1.2",
+            "mobile": "1.2"
+          }
+        }
+      },
+      "padding": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "tablet": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "mobile": [
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      },
+      "enableTitle": true,
+      "enableCategory": true,
+      "enableAuthor": true,
+      "enableDate": true,
+      "imageSize": "full",
+      "color": "#ffffff",
+      "bgColor": "#0693e3",
+      "arrowBgColor": "#000000",
+      "arrowColor": "#ffffff",
+      "slidesToShow": 2,
+      "block_id": "rise-blocks-news-2-block-instance-1-b929ae92-5ae3-4c1f-8e04-9701285182f3"
+    }
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "default": "Carousel Post"
+    },
+    "alignment": {
+      "type": "string",
+      "default": "center"
+    },
+    "postsToShow": {
+      "type": "number",
+      "default": 5
+    },
+    "order": {
+      "type": "string",
+      "default": "desc"
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "date"
+    },
+    "categories": {
+      "type": "string"
+    },
+    "headingTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Roboto",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 20,
+            "tablet": 20,
+            "mobile": 20
+          }
+        },
+        "textTransform": "uppercase",
+        "fontWeight": 700,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": "1.2",
+            "tablet": "1.2",
+            "mobile": "1.2"
+          }
+        }
+      }
+    },
+    "titleTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Roboto",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 20,
+            "tablet": 20,
+            "mobile": 20
+          }
+        },
+        "fontWeight": 500,
+        "lineHeight": {
+          "activeUnit": "px",
+          "units": [
+            "px"
+          ],
+          "values": {
+            "desktop": "28",
+            "tablet": "28",
+            "mobile": "28"
+          }
+        }
+      }
+    },
+    "metaTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Roboto",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 12,
+            "tablet": 12,
+            "mobile": 12
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": "1.2",
+            "tablet": "1.2",
+            "mobile": "1.2"
+          }
+        }
+      }
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "tablet": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "mobile": [
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      }
+    },
+    "enableTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableCategory": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableAuthor": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableDate": {
+      "type": "boolean",
+      "default": true
+    },
+    "imageSize": {
+      "type": "string",
+      "default": "full"
+    },
+    "color": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "bgColor": {
+      "type": "string",
+      "default": "#0693e3"
+    },
+    "arrowBgColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "arrowColor": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "slidesToShow": {
+      "type": "number",
+      "default": 3
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/site-identity/index.css","mappings":";;;AAAA;EACI;AACJ;AACI;EACI;AACR,C","sources":["webpack://rise-blocks/./src/blocks/site-identity/styles/editor.scss"],"sourcesContent":[".rise-blocks-site-identity-logo > div {\r\n    height: auto !important;\r\n\r\n    .site-title {\r\n        margin: 0;\r\n    }\r\n}"],"names":[],"sourceRoot":""}

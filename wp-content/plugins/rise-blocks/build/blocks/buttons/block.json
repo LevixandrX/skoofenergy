@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/buttons",
+  "keywords": [
+    "buttons"
+  ],
+  "version": "3.1.1",
+  "title": "Advanced Buttons",
+  "category": "rise-blocks",
+  "description": "Allow to add buttons",
+  "supports": {
+    "align": [
+      "left",
+      "center",
+      "right"
+    ]
+  },
+  "attributes": {
+    "isInit": {
+      "type": "boolean",
+      "default": false
+    },
+    "count": {
+      "type": "number",
+      "default": 1
+    },
+    "block_id": {
+      "type": "string"
+    },
+    "padding": {
+      "type": "object"
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

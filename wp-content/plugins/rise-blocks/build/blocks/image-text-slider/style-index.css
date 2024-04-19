@@ -1,0 +1,82 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/image-text-slider/styles/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.rise-blocks-image-text-slider {
+  display: flex !important;
+  align-items: center;
+}
+.rise-blocks-image-text-slider .slider-image-wrapper {
+  flex: 0 0 60%;
+  padding-right: 40px;
+}
+.rise-blocks-image-text-slider .slider-text-wrapper {
+  flex: 0 0 40%;
+  color: #fff;
+  text-align: left;
+}
+.rise-blocks-image-text-slider .image-slider {
+  display: block;
+  width: 100%;
+}
+.rise-blocks-image-text-slider .rise-blocks-slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  background: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  font-size: 25px;
+  line-height: 1;
+  z-index: 99;
+  padding: 0;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.rise-blocks-image-text-slider .rise-blocks-slider-arrow:hover {
+  background-color: #FF8500;
+}
+.rise-blocks-image-text-slider .rise-blocks-slider-arrow.rise-blocks-next-arrow {
+  right: 10px;
+}
+.rise-blocks-image-text-slider .rise-blocks-slider-arrow.rise-blocks-prev-arrow {
+  left: 10px;
+}
+.rise-blocks-image-text-slider img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.rise-blocks-image-text-slider ul.slick-dots {
+  position: absolute;
+  bottom: 30px;
+  display: flex !important;
+  list-style: none;
+  left: 62%;
+  right: 0;
+  margin: auto;
+  justify-content: center;
+  transform: translate(-50%, 0);
+}
+.rise-blocks-image-text-slider ul.slick-dots li {
+  padding: 5px;
+}
+.rise-blocks-image-text-slider ul.slick-dots li button {
+  border: none;
+  background: #000;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  font-size: 0;
+  cursor: pointer;
+  padding: 0;
+}
+.rise-blocks-image-text-slider ul.slick-dots li.slick-active button, .rise-blocks-image-text-slider ul.slick-dots li:hover button {
+  background-color: #FF8500;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/page-slider/index.css","mappings":";;;AAEA;EACI;AADJ,C","sources":["webpack://rise-blocks/./src/blocks/page-slider/styles/editor.scss"],"sourcesContent":["$prefix: '.rise-blocks';\r\n\r\n#{$prefix}-banner-btn{\r\n    display: inline-block;\r\n}\r\n\r\n"],"names":[],"sourceRoot":""}

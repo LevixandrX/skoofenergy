@@ -1,0 +1,50 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/social-icon",
+  "keywords": [
+    "social icon"
+  ],
+  "version": "3.1.1",
+  "title": "Social Icon",
+  "category": "rise-blocks",
+  "description": "This block enables you to display social icons and set a link to each icon to the relevant social profile with different design options.",
+  "supports": {
+    "className": false,
+    "inserter": false
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string",
+      "default": "#"
+    },
+    "icon": {
+      "type": "object",
+      "default": {
+        "icon": "fa-facebook",
+        "page": 1
+      }
+    },
+    "size": {
+      "type": "number"
+    },
+    "background": {
+      "type": "string",
+      "default": "#0693e3"
+    },
+    "color": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "radius": {
+      "type": "number"
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

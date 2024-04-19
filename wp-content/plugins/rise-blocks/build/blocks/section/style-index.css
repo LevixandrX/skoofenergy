@@ -1,0 +1,101 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/section/styles/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.wp-block-rise-blocks-section {
+  position: relative;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+  z-index: 1;
+}
+.wp-block-rise-blocks-section .rise-blocks-section-wrapper {
+  margin: 0 auto;
+  padding: 15px;
+}
+.wp-block-rise-blocks-section .rise-blocks-section-wrapper.rise-blocks-boxed {
+  max-width: 1140px;
+}
+@media (max-width: 992px) {
+  .wp-block-rise-blocks-section .rise-blocks-section-wrapper.rise-blocks-boxed {
+    max-width: 720px;
+  }
+}
+@media (max-width: 768px) {
+  .wp-block-rise-blocks-section .rise-blocks-section-wrapper.rise-blocks-boxed {
+    max-width: 540px;
+  }
+}
+.wp-block-rise-blocks-section .rise-blocks-section-wrapper .rise-blocks-section-inner {
+  position: relative;
+}
+.wp-block-rise-blocks-section .rise-blocks-section-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.wp-block-rise-blocks-section p:empty {
+  display: none;
+}
+.wp-block-rise-blocks-section .block-editor-inner-blocks,
+.wp-block-rise-blocks-section .rise-blocks-section-inner {
+  position: relative;
+  z-index: 9;
+}
+
+.rise-blocks-section-shape {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  direction: ltr;
+  transform: rotate(180deg);
+}
+.rise-blocks-section-shape.vertically-flipped {
+  transform: rotate(0);
+}
+.rise-blocks-section-shape.horizontally-flipped svg {
+  transform: scaleX(1) scaleY(-1) rotate(180deg);
+}
+.rise-blocks-section-shape .divider--waves path:nth-child(2) {
+  opacity: 0.3;
+}
+.rise-blocks-section-shape .divider--waves path:nth-child(1) {
+  opacity: 0.15;
+}
+.rise-blocks-section-shape svg {
+  height: 150px;
+}
+@media (max-width: 992px) {
+  .rise-blocks-section-shape svg {
+    height: 100px;
+  }
+}
+@media (max-width: 576px) {
+  .rise-blocks-section-shape svg {
+    height: 50px;
+  }
+}
+.rise-blocks-section-shape.top {
+  bottom: 100%;
+}
+.rise-blocks-section-shape.bottom {
+  top: 100%;
+}
+
+.wp-block-rise-blocks-section > video,
+.rise-blocks-section-wrapper > video {
+  position: absolute;
+  z-index: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,141 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/blog/styles/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.rise-blocks-blog-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.rise-blocks-blog-wrapper .rise-blocks-blog-card {
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.1), 0 2px 6px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s;
+  height: 100%;
+  background: #fff;
+}
+.rise-blocks-blog-wrapper .rise-blocks-blog-card:hover {
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.15);
+}
+.rise-blocks-blog-wrapper a:focus {
+  outline: none;
+  box-shadow: none;
+}
+.rise-blocks-blog-wrapper .rise-blocks-blog-meta-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 1px solid #cecece;
+  padding: 20px 0 13px;
+  position: relative;
+}
+.rise-blocks-blog-wrapper .rise-blocks-blog-image {
+  display: block;
+  line-height: 0;
+  min-height: 70px;
+}
+.rise-blocks-blog-wrapper .rise-blocks-blog-image img {
+  max-width: 100%;
+  height: auto;
+}
+.rise-blocks-blog-wrapper .rise-blocks-blog-body {
+  padding: 0 18px 18px 18px;
+}
+.rise-blocks-blog-wrapper .rise-blocks-blog-post-content p {
+  margin-top: 16px;
+  margin-bottom: 0;
+  color: #717171;
+  line-height: 1.8;
+}
+.rise-blocks-blog-wrapper .rise-blocks-blog-post-title {
+  font-size: 21px;
+  margin: 16px 0 0;
+}
+.rise-blocks-blog-wrapper .rise-blocks-blog-post-title a {
+  text-decoration: none;
+  color: #000;
+}
+.rise-blocks-blog-wrapper .rise-blocks-blog-post-date span:before {
+  content: "\f073";
+  font-family: fontAwesome;
+  padding-right: 10px;
+}
+.rise-blocks-blog-wrapper .rise-blocks-blog-post-cat span:before {
+  content: "\f02b";
+  font-family: fontAwesome;
+  padding-right: 10px;
+}
+.rise-blocks-blog-wrapper .meta-content {
+  font-size: 13px;
+  padding-right: 12px;
+}
+.rise-blocks-blog-wrapper .meta-content a {
+  color: #717171;
+  color: inherit;
+  text-decoration: none;
+}
+.rise-blocks-blog-wrapper .rise-blocks-blog-author img {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  top: -33px;
+  border: 2px solid #fff;
+}
+.rise-blocks-blog-wrapper .rise-blocks-blog-card-wrapper {
+  padding: 15px;
+  max-width: 100%;
+  flex: 100%;
+}
+.rise-blocks-blog-wrapper.rise-blocks-item-2-per-row .rise-blocks-blog-card-wrapper {
+  max-width: 50%;
+  flex: 50%;
+}
+.rise-blocks-blog-wrapper.rise-blocks-item-3-per-row .rise-blocks-blog-card-wrapper {
+  max-width: 33.33%;
+  flex: 33.33%;
+}
+@media (max-width: 576px) {
+  .rise-blocks-blog-wrapper.rise-blocks-item-3-per-row .rise-blocks-blog-card-wrapper {
+    max-width: 100%;
+    flex: 100%;
+  }
+}
+.rise-blocks-blog-wrapper.rise-blocks-item-4-per-row .rise-blocks-blog-card-wrapper {
+  max-width: 25%;
+  flex: 25%;
+}
+@media (max-width: 768px) {
+  .rise-blocks-blog-wrapper.rise-blocks-item-4-per-row .rise-blocks-blog-card-wrapper {
+    max-width: 50%;
+    flex: 50%;
+  }
+}
+@media (max-width: 576px) {
+  .rise-blocks-blog-wrapper.rise-blocks-item-4-per-row .rise-blocks-blog-card-wrapper {
+    max-width: 100%;
+    flex: 100%;
+  }
+}
+
+.rise-blocks-align-center {
+  text-align: center;
+}
+.rise-blocks-align-center div {
+  justify-content: center;
+}
+
+.rise-blocks-align-left {
+  text-align: left;
+}
+.rise-blocks-align-left div {
+  justify-content: flex-start;
+}
+
+.rise-blocks-align-right {
+  text-align: right;
+}
+.rise-blocks-align-right div {
+  justify-content: flex-end;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,472 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/icon-boxes",
+  "keywords": [
+    "icon boxes"
+  ],
+  "version": "3.1.1",
+  "title": "Icon Boxes",
+  "category": "rise-blocks",
+  "description": "This block enables you to display information along with Icon and show it either in grid or in a row.",
+  "example": {
+    "name": "rise-blocks/icon-boxes",
+    "attributes": {
+      "isInit": true,
+      "count": 3,
+      "boxShadow": true,
+      "activeLayout": "center",
+      "itemsPerRow": 2,
+      "gutter": 31
+    },
+    "innerBlocks": [
+      {
+        "name": "rise-blocks/icon-box",
+        "attributes": {
+          "isInit": true,
+          "titleTag": "2",
+          "alignment": "center",
+          "wrapperLink": "",
+          "wrapperTarget": true,
+          "isImageIcon": false,
+          "image": {
+            "url": ""
+          },
+          "imageRadius": 0,
+          "imageWidth": {
+            "activeUnit": "px",
+            "units": [
+              "px"
+            ],
+            "range": {
+              "min": 1,
+              "max": 3000
+            },
+            "values": {
+              "desktop": null,
+              "tablet": null,
+              "mobile": null
+            }
+          },
+          "gutter": 30,
+          "selectedIcon": {
+            "icon": "fa-facebook",
+            "page": 2
+          },
+          "activeIconLayout": "frame",
+          "titleTypo": {
+            "fontFamily": "",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "px",
+              "values": {
+                "desktop": 24,
+                "tablet": 24,
+                "mobile": 24
+              }
+            },
+            "fontWeight": 600,
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": 1.6,
+                "tablet": 1.6,
+                "mobile": 1.6
+              }
+            }
+          },
+          "contentTypo": {
+            "fontFamily": "",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "px",
+              "values": {
+                "desktop": 15,
+                "tablet": 15,
+                "mobile": 15
+              }
+            },
+            "fontWeight": 400,
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": 1.5,
+                "tablet": 1.5,
+                "mobile": 1.5
+              }
+            }
+          },
+          "iconBorderWidth": 2,
+          "iconsBoxSize": {
+            "activeUnit": "px",
+            "units": [
+              "px"
+            ],
+            "range": {
+              "min": 10,
+              "max": 200
+            },
+            "values": {
+              "desktop": 80,
+              "tablet": 80,
+              "mobile": 80
+            }
+          },
+          "iconSize": {
+            "activeUnit": "px",
+            "units": [
+              "px"
+            ],
+            "range": {
+              "min": 10,
+              "max": 200
+            },
+            "values": {
+              "desktop": 40,
+              "tablet": 40,
+              "mobile": 40
+            }
+          },
+          "boxPadding": {
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "em",
+              "rem"
+            ],
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "values": {
+              "desktop": [
+                60,
+                35,
+                60,
+                35
+              ],
+              "tablet": [
+                60,
+                35,
+                60,
+                35
+              ],
+              "mobile": [
+                60,
+                35,
+                60,
+                35
+              ]
+            }
+          },
+          "headingPadding": {
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "em",
+              "rem"
+            ],
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "values": {
+              "desktop": [
+                30,
+                0,
+                15,
+                0
+              ],
+              "tablet": [
+                30,
+                0,
+                15,
+                0
+              ],
+              "mobile": [
+                30,
+                0,
+                15,
+                0
+              ]
+            }
+          },
+          "titleColor": "#000",
+          "contentColor": "#000",
+          "iconColors": {
+            "initial": {
+              "color": "#000000"
+            },
+            "frame": {
+              "borderColor": "#000000",
+              "color": "#000000"
+            },
+            "stack": {
+              "backgroundColor": "#000000",
+              "color": "#fff"
+            }
+          },
+          "title": "Facebook",
+          "content": "Connect with us here."
+        }
+      },
+      {
+        "name": "rise-blocks/icon-box",
+        "attributes": {
+          "isInit": true,
+          "titleTag": "2",
+          "alignment": "center",
+          "wrapperLink": "",
+          "wrapperTarget": true,
+          "isImageIcon": false,
+          "image": {
+            "url": ""
+          },
+          "imageRadius": 0,
+          "imageWidth": {
+            "activeUnit": "px",
+            "units": [
+              "px"
+            ],
+            "range": {
+              "min": 1,
+              "max": 3000
+            },
+            "values": {
+              "desktop": null,
+              "tablet": null,
+              "mobile": null
+            }
+          },
+          "gutter": 30,
+          "selectedIcon": {
+            "icon": "fa-instagram",
+            "page": 2
+          },
+          "activeIconLayout": "frame",
+          "titleTypo": {
+            "fontFamily": "",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "px",
+              "values": {
+                "desktop": 24,
+                "tablet": 24,
+                "mobile": 24
+              }
+            },
+            "fontWeight": 600,
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": 1.6,
+                "tablet": 1.6,
+                "mobile": 1.6
+              }
+            }
+          },
+          "contentTypo": {
+            "fontFamily": "",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "px",
+              "values": {
+                "desktop": 15,
+                "tablet": 15,
+                "mobile": 15
+              }
+            },
+            "fontWeight": 400,
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": 1.5,
+                "tablet": 1.5,
+                "mobile": 1.5
+              }
+            }
+          },
+          "iconBorderWidth": 2,
+          "iconsBoxSize": {
+            "activeUnit": "px",
+            "units": [
+              "px"
+            ],
+            "range": {
+              "min": 10,
+              "max": 200
+            },
+            "values": {
+              "desktop": 80,
+              "tablet": 80,
+              "mobile": 80
+            }
+          },
+          "iconSize": {
+            "activeUnit": "px",
+            "units": [
+              "px"
+            ],
+            "range": {
+              "min": 10,
+              "max": 200
+            },
+            "values": {
+              "desktop": 40,
+              "tablet": 40,
+              "mobile": 40
+            }
+          },
+          "boxPadding": {
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "em",
+              "rem"
+            ],
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "values": {
+              "desktop": [
+                60,
+                35,
+                60,
+                35
+              ],
+              "tablet": [
+                60,
+                35,
+                60,
+                35
+              ],
+              "mobile": [
+                60,
+                35,
+                60,
+                35
+              ]
+            }
+          },
+          "headingPadding": {
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "em",
+              "rem"
+            ],
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "values": {
+              "desktop": [
+                30,
+                0,
+                15,
+                0
+              ],
+              "tablet": [
+                30,
+                0,
+                15,
+                0
+              ],
+              "mobile": [
+                30,
+                0,
+                15,
+                0
+              ]
+            }
+          },
+          "titleColor": "#000",
+          "contentColor": "#000",
+          "iconColors": {
+            "initial": {
+              "color": "#000000"
+            },
+            "frame": {
+              "borderColor": "#000000",
+              "color": "#000000"
+            },
+            "stack": {
+              "backgroundColor": "#000000",
+              "color": "#fff"
+            }
+          },
+          "title": "Instagram",
+          "content": "Connect with us here."
+        }
+      }
+    ]
+  },
+  "attributes": {
+    "isInit": {
+      "type": "boolean",
+      "default": false
+    },
+    "count": {
+      "type": "number",
+      "default": 3
+    },
+    "boxShadow": {
+      "type": "boolean",
+      "default": true
+    },
+    "activeLayout": {
+      "type": "string",
+      "default": "center"
+    },
+    "block_id": {
+      "type": "string"
+    },
+    "itemsPerRow": {
+      "type": "number"
+    },
+    "gutter": {
+      "type": "number"
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

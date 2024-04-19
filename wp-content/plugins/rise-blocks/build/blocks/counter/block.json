@@ -1,0 +1,465 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/counter",
+  "keywords": [
+    "counter"
+  ],
+  "version": "3.1.1",
+  "title": "Counter",
+  "category": "rise-blocks",
+  "description": "This block helps to display upto four statistical data like completed projects, no. of clients, etc.",
+  "supports": {
+    "html": false,
+    "className": false
+  },
+  "example": {
+    "name": "rise-blocks/counter",
+    "attributes": {
+      "sectionPadding": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "tablet": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "mobile": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      "count": 2,
+      "itemsPerRow": 4,
+      "itemsBorderRadius": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop"
+        ],
+        "units": [
+          "px",
+          "%"
+        ],
+        "values": {
+          "desktop": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "tablet": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "mobile": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      "content": [
+        {
+          "number": "99",
+          "text": "Likes"
+        },
+        {
+          "number": "255",
+          "text": "Views"
+        },
+        {}
+      ],
+      "numberTypography": {
+        "fontFamily": "Lato",
+        "textTransform": "capitalize",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "rem",
+          "values": {
+            "desktop": 2,
+            "tablet": 2,
+            "mobile": 2
+          }
+        },
+        "fontWeight": 600,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      },
+      "numberColor": "#0693e3",
+      "textTypography": {
+        "fontFamily": "Lato",
+        "textTransform": "uppercase",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 15,
+            "tablet": 15,
+            "mobile": 15
+          }
+        },
+        "fontWeight": 600,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      },
+      "textMargin": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "tablet": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "mobile": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      },
+      "textColor": "#fc5b62",
+      "lineColor": "#000000",
+      "lineWidth": 30,
+      "lineHeight": 2,
+      "enableShadow": true,
+      "enableBorder": true,
+      "showPlusIcon": true,
+      "enableLine": true
+    }
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "sectionPadding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "tablet": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "mobile": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    },
+    "count": {
+      "type": "number",
+      "default": 3
+    },
+    "itemsPerRow": {
+      "type": "number",
+      "default": 3
+    },
+    "itemsBorderRadius": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop"
+        ],
+        "units": [
+          "px",
+          "%"
+        ],
+        "values": {
+          "desktop": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "tablet": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "mobile": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    },
+    "content": {
+      "type": "array",
+      "default": []
+    },
+    "numberTypography": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Lato",
+        "textTransform": "capitalize",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "rem",
+          "values": {
+            "desktop": 2,
+            "tablet": 2,
+            "mobile": 2
+          }
+        },
+        "fontWeight": 600,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      }
+    },
+    "numberColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "textTypography": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Lato",
+        "textTransform": "uppercase",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 15,
+            "tablet": 15,
+            "mobile": 15
+          }
+        },
+        "fontWeight": 600,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": 1.2,
+            "tablet": 1.2,
+            "mobile": 1.2
+          }
+        }
+      }
+    },
+    "textMargin": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "tablet": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "mobile": [
+            "",
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    },
+    "boxBackgroundColor": {
+      "type": "string",
+      "default": "#fff"
+    },
+    "textColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "lineColor": {
+      "type": "string",
+      "default": "#000"
+    },
+    "lineWidth": {
+      "type": "number",
+      "default": 30
+    },
+    "lineHeight": {
+      "type": "number",
+      "default": 2
+    },
+    "enableShadow": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableBorder": {
+      "type": "boolean",
+      "default": false
+    },
+    "showPlusIcon": {
+      "type": "boolean",
+      "default": false
+    },
+    "enableLine": {
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

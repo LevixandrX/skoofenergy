@@ -1,0 +1,92 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/button",
+  "keywords": [
+    "button"
+  ],
+  "version": "3.1.1",
+  "title": "Button",
+  "category": "rise-blocks",
+  "description": "Advanced Button",
+  "supports": {
+    "inserter": false
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "isInit": {
+      "type": "boolean",
+      "default": false
+    },
+    "count": {
+      "type": "number",
+      "default": 0
+    },
+    "text": {
+      "type": "string"
+    },
+    "padding": {
+      "type": "object"
+    },
+    "margin": {
+      "type": "object"
+    },
+    "link": {
+      "type": "string"
+    },
+    "openInNewTab": {
+      "type": "boolean"
+    },
+    "enableIcon": {
+      "type": "boolean"
+    },
+    "icon": {
+      "type": "object"
+    },
+    "iconPosition": {
+      "type": "string"
+    },
+    "iconSize": {
+      "type": "object"
+    },
+    "typo": {
+      "type": "object"
+    },
+    "radius": {
+      "type": "number"
+    },
+    "buttonBackground": {
+      "type": "string"
+    },
+    "buttonHoverBackground": {
+      "type": "string"
+    },
+    "buttonHoverTextColor": {
+      "type": "string"
+    },
+    "buttonTextColor": {
+      "type": "string"
+    },
+    "buttonBorderColor": {
+      "type": "string"
+    },
+    "buttonHoverBorderColor": {
+      "type": "string"
+    },
+    "border": {
+      "type": "number"
+    },
+    "borderColor": {
+      "type": "string"
+    },
+    "borderHoverColor": {
+      "type": "string"
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

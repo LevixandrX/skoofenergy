@@ -1,0 +1,552 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/section",
+  "keywords": [
+    "section",
+    "group"
+  ],
+  "version": "3.1.1",
+  "title": "Section",
+  "category": "rise-blocks",
+  "description": "This block enables you to add a section with a desired layout that allows you to add other block within it.",
+  "supports": {
+    "html": false
+  },
+  "example": {
+    "name": "rise-blocks/section",
+    "attributes": {
+      "padding": {
+        "activeUnit": "px",
+        "isLinkActive": false,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "em"
+        ],
+        "range": {
+          "min": 10,
+          "max": 300
+        },
+        "values": {
+          "desktop": [
+            100,
+            15,
+            100,
+            50
+          ],
+          "tablet": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "mobile": [
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      },
+      "margin": {
+        "activeUnit": "px",
+        "units": [
+          "px",
+          "em"
+        ],
+        "isLinkActive": true,
+        "range": {
+          "min": 10,
+          "max": 300
+        },
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "containerType": "boxed",
+      "containerWidth": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 1,
+          "max": 2000
+        },
+        "values": {
+          "desktop": 1140,
+          "tablet": 720,
+          "mobile": 540
+        }
+      },
+      "bgType": "color",
+      "bgPosition": "left top",
+      "bgAttachment": false,
+      "enableShapeDivider": true,
+      "verticalFlip": true,
+      "horizontalFlip": false,
+      "shapeColor": "#000000",
+      "shapeHeight": {
+        "activeUnit": "px",
+        "range": {
+          "min": 1,
+          "max": 2000
+        },
+        "values": {
+          "desktop": 181,
+          "tablet": 720,
+          "mobile": 540
+        },
+        "units": [
+          "px"
+        ]
+      },
+      "shape": "waves",
+      "shapePosition": "bottom",
+      "shapeZIndex": 0,
+      "shapeBgColor": "#eeeeee",
+      "bgColor": "#eeeeee"
+    },
+    "innerBlocks": [
+      {
+        "name": "rise-blocks/heading",
+        "attributes": {
+          "alignment": "left",
+          "tag": "h3",
+          "labelColor": "#000",
+          "toggleLabel": true,
+          "labelBorderStyle": "solid",
+          "toggleLine": false,
+          "toggleDescription": false,
+          "titleColor": "#000",
+          "labelTypography": {
+            "fontFamily": "Oswald",
+            "textTransform": "uppercase",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "px",
+              "values": {
+                "desktop": 15,
+                "tablet": 0.7,
+                "mobile": 0.7
+              },
+              "range": {
+                "min": 0,
+                "max": 100
+              }
+            },
+            "fontWeight": "300",
+            "lineHeight": {
+              "units": [
+                "rem"
+              ],
+              "activeUnit": "rem",
+              "values": {
+                "desktop": 1.1,
+                "tablet": "1.3",
+                "mobile": "1.3"
+              },
+              "range": {
+                "min": 0,
+                "max": 100
+              }
+            }
+          },
+          "titleTypography": {
+            "fontFamily": "Oswald",
+            "textTransform": "uppercase",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "px",
+              "values": {
+                "desktop": 35.5,
+                "tablet": 2,
+                "mobile": 2
+              },
+              "range": {
+                "min": 0,
+                "max": 100
+              }
+            },
+            "fontWeight": "600",
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": 1.1,
+                "tablet": "1.2",
+                "mobile": "1.2"
+              },
+              "range": {
+                "min": 0,
+                "max": 100
+              }
+            }
+          },
+          "descriptionTypography": {
+            "fontFamily": "Raleway",
+            "fontSize": {
+              "units": [
+                "px",
+                "em",
+                "rem"
+              ],
+              "activeUnit": "px",
+              "values": {
+                "desktop": 16,
+                "tablet": 16,
+                "mobile": 16
+              }
+            },
+            "fontWeight": 400,
+            "lineHeight": {
+              "activeUnit": "",
+              "units": [
+                ""
+              ],
+              "values": {
+                "desktop": "1.5",
+                "tablet": "1.5",
+                "mobile": "1.5"
+              }
+            }
+          },
+          "sectionPadding": {
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "properties": [
+              "top",
+              "right",
+              "bottom",
+              "left"
+            ],
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "rem"
+            ],
+            "values": {
+              "desktop": [
+                null,
+                null,
+                83,
+                null
+              ],
+              "tablet": [
+                "",
+                "",
+                "",
+                ""
+              ],
+              "mobile": [
+                "",
+                "",
+                "",
+                ""
+              ]
+            }
+          },
+          "titleMargin": {
+            "activeUnit": "rem",
+            "isLinkActive": false,
+            "properties": [
+              "top",
+              "right",
+              "bottom",
+              "left"
+            ],
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "rem"
+            ],
+            "values": {
+              "desktop": [
+                "0.4",
+                "",
+                "",
+                ""
+              ],
+              "tablet": [
+                "0.4",
+                "",
+                "",
+                ""
+              ],
+              "mobile": [
+                "0.4",
+                "",
+                "",
+                ""
+              ]
+            }
+          },
+          "descriptionPadding": {
+            "activeUnit": "px",
+            "isLinkActive": false,
+            "properties": [
+              "top",
+              "right",
+              "bottom",
+              "left"
+            ],
+            "responsiveViews": [
+              "desktop",
+              "tablet",
+              "mobile"
+            ],
+            "units": [
+              "px",
+              "rem"
+            ],
+            "values": {
+              "desktop": [
+                "15",
+                "",
+                "",
+                ""
+              ],
+              "tablet": [
+                "15",
+                "",
+                "",
+                ""
+              ],
+              "mobile": [
+                "15",
+                "",
+                "",
+                ""
+              ]
+            }
+          },
+          "descriptionColor": "#666",
+          "lineColor": "#000",
+          "title": "Embrace the journey, <br>for it is the path that shapes us.",
+          "label": "Happiness"
+        }
+      }
+    ],
+    "viewportWidth": 800
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px",
+          "em"
+        ],
+        "isLinkActive": true,
+        "range": {
+          "min": 10,
+          "max": 300
+        },
+        "values": {
+          "desktop": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "tablet": [
+            15,
+            15,
+            15,
+            15
+          ],
+          "mobile": [
+            15,
+            15,
+            15,
+            15
+          ]
+        }
+      }
+    },
+    "margin": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px",
+          "em"
+        ],
+        "isLinkActive": true,
+        "range": {
+          "min": 10,
+          "max": 300
+        },
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "containerType": {
+      "type": "string",
+      "default": "boxed"
+    },
+    "containerWidth": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 1,
+          "max": 2000
+        },
+        "values": {
+          "desktop": 1140,
+          "tablet": 720,
+          "mobile": 540
+        }
+      }
+    },
+    "bgType": {
+      "type": "string",
+      "default": "image"
+    },
+    "bgImage": {
+      "type": "object"
+    },
+    "bgVideo": {
+      "type": "object"
+    },
+    "bgPosition": {
+      "type": "string",
+      "default": "left top"
+    },
+    "bgColor": {
+      "type": "string"
+    },
+    "bgAttachment": {
+      "type": "boolean",
+      "default": false
+    },
+    "bgOverlay": {
+      "type": "string"
+    },
+    "enableShapeDivider": {
+      "type": "boolean",
+      "default": false
+    },
+    "verticalFlip": {
+      "type": "boolean",
+      "default": true
+    },
+    "horizontalFlip": {
+      "type": "boolean",
+      "default": false
+    },
+    "shapeColor": {
+      "type": "string",
+      "default": "#000000"
+    },
+    "shapeHeight": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 1,
+          "max": 2000
+        },
+        "values": {
+          "desktop": 1140,
+          "tablet": 720,
+          "mobile": 540
+        }
+      }
+    },
+    "shape": {
+      "type": "string",
+      "default": "hills"
+    },
+    "shapeBgColor": {
+      "type": "string"
+    },
+    "shapePosition": {
+      "type": "string",
+      "default": "bottom"
+    },
+    "shapeZIndex": {
+      "type": "numeric",
+      "default": 0
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

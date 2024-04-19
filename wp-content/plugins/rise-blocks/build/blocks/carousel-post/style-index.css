@@ -1,0 +1,167 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/@wordpress/scripts/node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@wordpress/scripts/node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/carousel-post/styles/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.rise-blocks-news-2-wrapper {
+  position: relative;
+  padding: 30px 15px;
+  margin: 0 -10px;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-news-2-card-wrapper {
+  padding: 15px 15px 0;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-news-2-card-wrapper > div {
+  overflow: hidden;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-news-2-card-wrapper .rise-blocks-news-2-card-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  transition: all 0.6s ease-in-out;
+  transform: scale(1);
+  position: relative;
+  overflow: hidden;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-news-2-card-wrapper .rise-blocks-news-2-card-image:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #000;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-news-2-card-wrapper .rise-blocks-news-2-body-inner {
+  padding: 15px 0 0;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-news-2-card-wrapper .rise-blocks-news-2-post-title {
+  margin: 15px 0;
+  font-size: 18px;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-news-2-card-wrapper .rise-blocks-news-2-post-title a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 28px;
+  font-size: 20px;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-news-2-card-wrapper .rise-blocks-news-2-post-cat a {
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 1px;
+  opacity: 0.95;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 12px;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-news-2-card-wrapper .rise-blocks-news-2-post-cat a .line {
+  content: "";
+  width: 20px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 108%;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-news-2-card-wrapper .rise-blocks-news-2-post-cat a:nth-child(n+1) {
+  margin-left: 40px;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-news-2-card-wrapper .rise-blocks-news-2-post-cat a:first-child {
+  margin-left: 0;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-news-2-card-wrapper .rise-blocks-news-2-meta-wrapper {
+  display: flex;
+  margin-bottom: 15px;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-news-2-card-wrapper .rise-blocks-news-2-meta-wrapper div {
+  padding: 0 10px;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-news-2-card-wrapper .rise-blocks-news-2-meta-wrapper div a {
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  opacity: 0.95;
+  text-transform: capitalize;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 1.2;
+  font-size: 12px;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-news-2-card-wrapper .rise-blocks-news-2-meta-wrapper i {
+  margin-right: 10px;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-news-2-card-wrapper .rise-blocks-news-2-post-content p {
+  margin: 0;
+  color: #fff;
+}
+.rise-blocks-news-2-wrapper .slick-slide {
+  margin-top: 20px;
+}
+.rise-blocks-news-2-wrapper .slick-slide:focus {
+  outline: none;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-slider-arrow {
+  position: absolute;
+  right: 15px;
+  top: -30px;
+  z-index: 9;
+  cursor: pointer;
+  width: 45px;
+  height: 35px;
+  border: none;
+  background: #000;
+  color: #fff;
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+.rise-blocks-news-2-wrapper .rise-blocks-slider-arrow.rise-blocks-prev-arrow {
+  right: 65px;
+}
+.rise-blocks-news-2-wrapper ul.slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin-bottom: 0;
+}
+.rise-blocks-news-2-wrapper ul.slick-dots li button {
+  border: 1px solid transparent;
+  height: 9px;
+  width: 45px;
+  margin: 0 4px;
+  border-radius: 9px;
+  background: #e7e7e7;
+  cursor: pointer;
+}
+.rise-blocks-news-2-wrapper ul.slick-dots li button:focus {
+  outline: none;
+}
+.rise-blocks-news-2-wrapper ul.slick-dots li.slick-active button {
+  background: #000;
+}
+.rise-blocks-news-2-wrapper .slick-track {
+  margin-left: inherit;
+}
+
+.rise-blocks-news-2-title {
+  padding: 0 140px 0 10px;
+  color: #fff;
+  margin: 0;
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,160 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/social-icons",
+  "keywords": [
+    "social icons"
+  ],
+  "version": "3.1.1",
+  "title": "Social Icons",
+  "category": "rise-blocks",
+  "description": "This block enables you to display social icons and set a link to each icon to the relevant social profile with different design options.",
+  "supports": {
+    "className": false
+  },
+  "example": {
+    "name": "rise-blocks/social-icons",
+    "attributes": {
+      "fontSize": 25,
+      "size": 45,
+      "alignment": "center",
+      "radius": 0,
+      "margin": {
+        "activeUnit": "px",
+        "units": [
+          "px",
+          "em"
+        ],
+        "isLinkActive": true,
+        "range": {
+          "min": 10,
+          "max": 300
+        },
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    },
+    "innerBlocks": [
+      {
+        "name": "rise-blocks/social-icon",
+        "attributes": {
+          "link": "",
+          "icon": {
+            "icon": "fa-facebook",
+            "page": 1
+          },
+          "size": 45,
+          "background": "#0693e3",
+          "color": "#ffffff",
+          "radius": 0
+        }
+      },
+      {
+        "name": "rise-blocks/social-icon",
+        "attributes": {
+          "link": "#",
+          "icon": {
+            "icon": "fa-instagram",
+            "page": 1
+          },
+          "size": 45,
+          "background": "#cd5bfc",
+          "color": "#ffffff",
+          "radius": 0
+        }
+      },
+      {
+        "name": "rise-blocks/social-icon",
+        "attributes": {
+          "link": "#",
+          "icon": {
+            "icon": "fa-pinterest-p",
+            "page": 1
+          },
+          "size": 45,
+          "background": "#e30707",
+          "color": "#ffffff",
+          "radius": 0
+        }
+      }
+    ]
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "fontSize": {
+      "type": "number",
+      "default": 25
+    },
+    "size": {
+      "type": "number",
+      "default": 45
+    },
+    "alignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "radius": {
+      "type": "number",
+      "default": 0
+    },
+    "margin": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px",
+          "em"
+        ],
+        "isLinkActive": true,
+        "range": {
+          "min": 10,
+          "max": 300
+        },
+        "values": {
+          "desktop": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "tablet": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "mobile": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

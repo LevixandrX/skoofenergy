@@ -1,0 +1,431 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "rise-blocks/news-1",
+  "keywords": [
+    "news",
+    "post"
+  ],
+  "version": "3.1.1",
+  "title": "News",
+  "category": "rise-blocks",
+  "description": "",
+  "supports": {
+    "html": false
+  },
+  "example": {
+    "name": "rise-blocks/news-1",
+    "attributes": {
+      "alignment": "left",
+      "postsToShow": 3,
+      "order": "desc",
+      "orderBy": "date",
+      "titleTypo": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 22,
+            "tablet": 22,
+            "mobile": 22
+          }
+        },
+        "fontWeight": 600,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": "1.2",
+            "tablet": "1.2",
+            "mobile": "1.2"
+          }
+        }
+      },
+      "contentTypo": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 16,
+            "tablet": 16,
+            "mobile": 16
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": "1.8",
+            "tablet": "1.8",
+            "mobile": "1.8"
+          }
+        }
+      },
+      "metaTypo": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 12,
+            "tablet": 12,
+            "mobile": 12
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": "1.2",
+            "tablet": "1.2",
+            "mobile": "1.2"
+          }
+        }
+      },
+      "height": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 1,
+          "max": 1500
+        },
+        "values": {
+          "desktop": 400,
+          "tablet": 500,
+          "mobile": 500
+        }
+      },
+      "smallHeight": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 1,
+          "max": 1500
+        },
+        "values": {
+          "desktop": 200,
+          "tablet": 240,
+          "mobile": 240
+        }
+      },
+      "padding": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "tablet": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "mobile": [
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      },
+      "enableTitle": true,
+      "enableContent": true,
+      "enableCategory": true,
+      "enableAuthor": true,
+      "enableDate": true,
+      "imageSize": "full",
+      "excerptLength": 7,
+      "overlayColor": "rgba(0, 0, 0, 0.3)",
+      "block_id": "rise-blocks-news-1-block-instance-0-761d671b-0855-4138-9a53-5a24fb5fe019"
+    },
+    "viewportWidth": 800
+  },
+  "attributes": {
+    "block_id": {
+      "type": "string"
+    },
+    "alignment": {
+      "type": "string",
+      "default": "left"
+    },
+    "postsToShow": {
+      "type": "number",
+      "default": 3
+    },
+    "order": {
+      "type": "string",
+      "default": "desc"
+    },
+    "orderBy": {
+      "type": "string",
+      "default": "date"
+    },
+    "categories": {
+      "type": "string"
+    },
+    "titleTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 22,
+            "tablet": 22,
+            "mobile": 22
+          }
+        },
+        "fontWeight": 600,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": "1.2",
+            "tablet": "1.2",
+            "mobile": "1.2"
+          }
+        }
+      }
+    },
+    "contentTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 16,
+            "tablet": 16,
+            "mobile": 16
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": "1.8",
+            "tablet": "1.8",
+            "mobile": "1.8"
+          }
+        }
+      }
+    },
+    "metaTypo": {
+      "type": "object",
+      "default": {
+        "fontFamily": "Lato",
+        "fontSize": {
+          "units": [
+            "px",
+            "em",
+            "rem"
+          ],
+          "activeUnit": "px",
+          "values": {
+            "desktop": 12,
+            "tablet": 12,
+            "mobile": 12
+          }
+        },
+        "fontWeight": 400,
+        "lineHeight": {
+          "activeUnit": "",
+          "units": [
+            ""
+          ],
+          "values": {
+            "desktop": "1.2",
+            "tablet": "1.2",
+            "mobile": "1.2"
+          }
+        }
+      }
+    },
+    "height": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 1,
+          "max": 1500
+        },
+        "values": {
+          "desktop": 500,
+          "tablet": 500,
+          "mobile": 500
+        }
+      }
+    },
+    "smallHeight": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "units": [
+          "px"
+        ],
+        "range": {
+          "min": 1,
+          "max": 1500
+        },
+        "values": {
+          "desktop": 240,
+          "tablet": 240,
+          "mobile": 240
+        }
+      }
+    },
+    "padding": {
+      "type": "object",
+      "default": {
+        "activeUnit": "px",
+        "isLinkActive": true,
+        "properties": [
+          "top",
+          "right",
+          "bottom",
+          "left"
+        ],
+        "responsiveViews": [
+          "desktop",
+          "tablet",
+          "mobile"
+        ],
+        "units": [
+          "px",
+          "rem"
+        ],
+        "values": {
+          "desktop": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "tablet": [
+            20,
+            20,
+            20,
+            20
+          ],
+          "mobile": [
+            20,
+            20,
+            20,
+            20
+          ]
+        }
+      }
+    },
+    "enableTitle": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableContent": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableCategory": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableAuthor": {
+      "type": "boolean",
+      "default": true
+    },
+    "enableDate": {
+      "type": "boolean",
+      "default": true
+    },
+    "imageSize": {
+      "type": "string",
+      "default": "full"
+    },
+    "titleColor": {
+      "type": "string"
+    },
+    "titleHoverColor": {
+      "type": "string"
+    },
+    "contentColor": {
+      "type": "string"
+    },
+    "metaColor": {
+      "type": "string"
+    },
+    "excerptLength": {
+      "type": "number",
+      "default": 7
+    },
+    "overlayColor": {
+      "type": "string",
+      "default": "rgba(0, 0, 0, 0.3)"
+    }
+  },
+  "textdomain": "rise-blocks",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
